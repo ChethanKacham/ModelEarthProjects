@@ -2,6 +2,8 @@
 # Open WebUI Setup
 <!--Pinecone -->
 
+View our [simple setup without Docker](guides). More detailed steps below.
+
 If you already have an "open-webui" Docker container, your OpenWebUI server may already be running at [localhost:3000](http://localhost:3000) (since Docker restarts it when you start your computer).  You can now [train with a web page](train).
 
 Use our [Docker Setup](docker) for a quick install with Ollama for loading models. The page also includes experiments in which we extract backend files to edit in a Webroot. We're not sure if un-built frontend files can reside in OpenWebUI Docker container images.
@@ -72,7 +74,7 @@ If none are found, [download from Anaconda.com](https://www.anaconda.com/downloa
 
 The conda-start.sh script uses commands from [Open WebUI Getting Started](https://docs.openwebui.com/getting-started/) for building locally.  
 
-The commands include the following:
+The commands include the following - also [see with Conda](guides)
 
 	# Building Frontend Using Node
 	npm i
@@ -84,18 +86,23 @@ The commands include the following:
 
 	bash start.sh
 
-We created conda-start.sh because `bash start.sh` above fails when Llama is not available - since it uses the settings config file.
+We created conda-start.sh because `bash start.sh` above fails when Llama is not available - since it uses the settings config file.  
+On Windows, run `start.bat` for the last line above.
 
 Our conda-start.sh runs the backend in a virtual environment.  
-You could optionally run the following first too. We haven't confirmed the install works when running this first.
+You could optionally run the following first too. We haven't confirmed the install works when running this first. [Get pyenv](/io/coders/python/)
 
+	pyenv install 3.11
+	pyenv local 3.11
 	python3.11 -m venv env
 	source env/bin/activate
+
+On windows the last line above is `.\env\Scripts\activate`
 
 ### RAM error
 
 A RAM error shut down the local site: [1 leaked semaphore](https://github.com/lllyasviel/Fooocus/discussions/2690)  
-The CPU was not running when this occurred.
+The CPU was not running hot when this occurred.
 
 <!--
 The following restarted the frontend at [localhost:5173](http://localhost:5173/)
@@ -117,23 +124,8 @@ Is there a fast way to reopen the conda instance?
 
 **Restart server**
 
-Restarting the server only takes a couple minutes. Use the same command as above.  
+Restarting the server only takes a couple minutes. Use the same command as above (Mac).  
 Choose the existing conda environment by saying "no" when asked to reinstall.
 
 	bash location/setup/script/conda-start.sh
 
-
-## Edit in our Open WebUI "projects/location" folder
-
-The "projects/location" folder is where we'll edit enhancements to the "src" folder.  
-We'll merge our enhancements into "src-merged" so we don't have sync issues with open-webui.
-
-We also edit index.html and active.md in our "projects" fork root. We added those files, so they won't have sync conflicts with the parent repo.
-
-TO DO:
-
-Place updates in our custom "projects/location" folder.
-
-Add CUSTOM START and CUSTOM END around our custom code. Create a python script that uses those strings to insert our custom code from projects/location into the "src" version and save the merged files in "src-merged". (ChatGPT could help figure out how to insert the custom text.)
-
-Point our "npm run build" at the "src-merged" folder.

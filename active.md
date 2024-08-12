@@ -34,7 +34,7 @@ medium.com subscription needed
 
 **Charts, SQL, Vite, Supabase, AI Chat**
 - [Javascript Timelines from Google Data Commons (GDC) API](/data-pipeline/timelines/earthscape/datacommons.html#country=IN,CN,US) - Mehul
-- [Python from GDC API for map filters and UN goal datasets](/localsite/info/data/map-filters/) - Abhishek L., Pratyush
+- [Python from GDC API for map filters and UN goal datasets](/localsite/info/data/map-filters/) - Abhishek L., Pratyush, Jack
 
 - [International Trade Flow SQL Data Prep](/useeio.js/footprint) - Sahil, Himanshu, Song
 - [Python to pull Harmonized Code (HS) lookups into Supabase](/OpenFootprint/harmonized-system/) - Chen and Wenjie

@@ -5,9 +5,7 @@
 
 For Linux/MacOS:
 
-```zsh
-./location/setup/script/start.sh
-```
+	bash location/setup/script/conda-start.sh
 
 For Windows:
 
@@ -29,7 +27,8 @@ pip install -r requirements.txt -U
 start.bat
 ```
 
-page should be up at http://localhost:8080 
+Page should be up at http://localhost:8080
+If you encounter issues, see our [Detailed Install Notes](../).
 
 ## Using Docker w/ Ollama
 
@@ -41,7 +40,7 @@ docker run -d -p 8080:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/da
 
 ### Add pipelines feature
 
-Check out this [quick-start guide](https://docs.openwebui.com/pipelines/).
+Check out this [quick-start guide](https://docs.openwebui.com/pipelines/) and see our [Google Cloud cost comparisons](https://github.com/ModelEarth/projects/blob/main/location/setup/guides/google-cloud.md) and deployment steps.
 
 ## Other Installation Methods
 
