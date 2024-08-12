@@ -11,12 +11,12 @@ This [Open WebUI video](https://www.youtube.com/watch?v=N-aRJe--txs) walks throu
 
 ## Contribute in our Open WebUI "projects/location" folder
 
-The "projects/location" folder is we add extras - but we don't have a build process yet.  
-If you're making updates in the "src" and "backend" folders, 
-prepend "team-" to files copied and customized to avoid merge errors.
+The "projects/location" folder is where we add extras - but we don't have a build process yet.  
+To avoid merge errors, if you're making updates in the "src" and "backend" folders, 
+prepend "team-" to the names of the files you've copied and customized.
 
 TO DO: The html we added in this "projects" fork is breaking the GitHub Docker build.  
-Try simple edits in our [open-webui-earthscape](https://github.com/earthscape/open-webui-earthscape) fork. (Write loren to be added as a contributor.)
+Instead try simple edits in our [open-webui-earthscape](https://github.com/earthscape/open-webui-earthscape) fork. (Write loren to be added as a contributor.)
 
 ## Our OpenWebUI Projects
 
