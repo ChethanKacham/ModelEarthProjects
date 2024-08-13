@@ -1,6 +1,6 @@
 # Install and Build Locally
 
-## Manual Install w/o Ollama
+## Manual Install w/o Ollama locally
 
 For Linux/MacOS:
 
