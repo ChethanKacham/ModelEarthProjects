@@ -38,15 +38,19 @@ See the [pyenv install links](/io/coders/python/) on our python notes page, then
 	pyenv install 3.11
 	pyenv local 3.11
 
-On Windows: You can run the "start.bat" steps on [Open WebUI Getting Started](https://docs.openwebui.com/getting-started/). We've documented how to deploy the [Windows steps with conda](https://github.com/ModelEarth/projects/blob/gcp/location/setup/guides/local.md)
+**On Windows**
+You can run the "start.bat" steps on [Open WebUI Getting Started](https://docs.openwebui.com/getting-started/). We've documented how to deploy the [Windows steps with conda](https://github.com/ModelEarth/projects/blob/gcp/location/setup/guides/local.md)
 
-On Mac and Linux: Run the following in the root of the "projects" folder. Our [conda-start.sh](https://github.com/ModelEarth/projects/blob/main/location/setup/script/conda-start.sh) script invokes python3.11 so you might need [pyenv](https://model.earth/io/coders/python).
+**On Mac and Linux**
+Run the following in the root of the "projects" folder. Our [conda-start.sh](https://github.com/ModelEarth/projects/blob/main/location/setup/script/conda-start.sh) script invokes python3.11 so you might need [pyenv](https://model.earth/io/coders/python).
 	
 	bash location/setup/script/conda-start.sh
 
 That's it. Wait an hour or two to finish, then view the site here:
 
 [http://localhost:8080](http://localhost:8080)
+
+## Run a local Build
 
 Now you can build to apply changes from "src" and "backup".
 
@@ -55,7 +59,7 @@ Now you can build to apply changes from "src" and "backup".
 "npm run build" seems to break secure https 0.0.0.0:8080 hosting.  
 (Perhaps because the test included the external localsite.js file.)
 
-Don't use `npm run dev` it only hosts the frontend and you'll get a message that backend did not build. 
+Don't use `npm run dev` it only hosts the frontend and you'll get a message that the backend did not build. 
 
 
 ### Related Notes
@@ -99,10 +103,12 @@ You could optionally run the following first too. We haven't confirmed the insta
 
 On windows the last line above is `.\env\Scripts\activate`
 
-### RAM error
+<!--
+### RAM error when running Ollama on a 5-year old Mac
 
 A RAM error shut down the local site: [1 leaked semaphore](https://github.com/lllyasviel/Fooocus/discussions/2690)  
 The CPU was not running hot when this occurred.
+-->
 
 <!--
 The following restarted the frontend at [localhost:5173](http://localhost:5173/)
@@ -122,10 +128,17 @@ start.sh: line 52: exec: uvicorn: not found
 Is there a fast way to reopen the conda instance?
 -->
 
-**Restart server**
+**Starting your server**
 
 Restarting the server only takes a couple minutes. Use the same command as above (Mac).  
 Choose the existing conda environment by saying "no" when asked to reinstall.
 
+Mac/Linux:
+
 	bash location/setup/script/conda-start.sh
 
+Windows (not yet confirmed):
+
+	start.bat
+
+More [documentation on building locally](https://docs.openwebui.com/getting-started/)
