@@ -1,4 +1,4 @@
-# Build branch locally
+# Build Branches Locally
 
 ## Important: To avoid failed "Actions" when contributing
 

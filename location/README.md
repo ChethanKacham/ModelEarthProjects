@@ -11,7 +11,7 @@ This [Open WebUI video](https://www.youtube.com/watch?v=N-aRJe--txs) walks throu
 
 ## Contribute in our Open WebUI "projects/location" folder
 
-The "projects/location" folder is where we add extras - but we don't have a build process yet.  
+The "projects/location" folder is where we add extras - we're still perfecting [build process](setup).  
 To avoid merge errors, if you're making updates in the "src" and "backend" folders, 
 prepend "team-" to the names of the files you've copied and customized.
 
@@ -22,7 +22,7 @@ Instead try simple edits in our [open-webui-earthscape](https://github.com/earth
 
 TO DO: Use Flask in a [projects/backend/location](https://github.com/ModelEarth/projects/tree/main/backend) folder and interact with our Supabase REST API - Nanden
 
-TO DO: Create an example of running .ipynb from our [RealityStream](../../RealityStream/) app.
+TO DO: Create an example of running [Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) saved from our [RealityStream CoLab](../../RealityStream/).
 
 TO DO: Set up [RAG context](https://docs.openwebui.com/tutorial/rag/) using our [Supabase International Trade Flow](../../OpenFootprint/prep/sql/supabase/) data.
 
