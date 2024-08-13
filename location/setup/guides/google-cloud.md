@@ -1,4 +1,6 @@
-# Google Could Guide
+# Google Cloud Guide
+
+We opted for Hosting with Pipeline Features (#2)
 
 ## Cost Comparison
 
@@ -13,7 +15,7 @@
 
 ## Deployment on GCR (cloud run)
 
-### Step 1: upload image to Google Artifact Registry
+### Step 1: Upload Docker image container to Google Artifact Registry
 
 The open-webui, open-webui-pipeline and modelearth-open-webui images are already uploaded to the org's registry. If you are interested how to do it, you could check out this [guide](https://cloud.google.com/artifact-registry/docs/docker/store-docker-container-images).
 
@@ -40,24 +42,27 @@ Repeat the step for pipeline images.
 
 ### Step 2: GCR
 
-1. Grant Cloud Run Developer, Service Account User, Artifact Registry Reader, Artifact Registry Writer IAM roles:
+1.) Grant Cloud Run Developer, Service Account User, Artifact Registry Reader, Artifact Registry Writer IAM roles:
 
-&nbsp;&nbsp;&nbsp;![Alt text](./pics/gcr-roles.png){width=500}.
-&nbsp;&nbsp;&nbsp;![Alt text](./pics/artifact-roles.png){width=500}
-2. Follow [Deploying a service with sidecar containers](https://cloud.google.com/run/docs/deploying#sidecars).
-3. Mount volume to the container
+&nbsp;&nbsp;&nbsp;<img src="pics/gcr-roles.png" style="max-width:600px">
+&nbsp;&nbsp;&nbsp;<img src="pics/artifact-roles.png" style="max-width:600px">  
 
-&nbsp;&nbsp;&nbsp;&nbsp;a. Under Container(s), Volumes, Networking, Security, select VOLUMES, ADD VOLUME
-&nbsp;&nbsp;&nbsp;&nbsp;![Alt text](./pics/gcr-add-volume.png){width=500}
-&nbsp;&nbsp;&nbsp;&nbsp;b. create new volume and then go to Containers Tab
-&nbsp;&nbsp;&nbsp;&nbsp;![Alt text](./pics/gcr-new-volume.png){width=500}
-&nbsp;&nbsp;&nbsp;&nbsp;c. Under Volume Mounts:
-&nbsp;&nbsp;&nbsp;&nbsp;![Alt text](./pics/gcr-vmount.png){width=500}
+2.) Follow [Deploying a service with sidecar containers](https://cloud.google.com/run/docs/deploying#sidecars).  
+
+3.) Mount volume to the container
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Under Container(s), Volumes, Networking, Security, select VOLUMES, ADD VOLUME
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="pics/gcr-add-volume.png" style="max-width:600px">
+&nbsp;&nbsp;&nbsp;&nbsp;B. create new volume and then go to Containers Tab
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="pics/gcr-new-volume.png" style="max-width:600px">
+&nbsp;&nbsp;&nbsp;&nbsp;C. Under Volume Mounts:
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="pics/gcr-vmount.png" style="max-width:600px">
 
 &nbsp;&nbsp;&nbsp;&nbsp;For the pipeline image, change the **mount path** to `app/pipelines`.
 
-4. Then follow [adding pipelines features](https://docs.openwebui.com/pipelines/).
-5. Good to go!
+4.) Then follow [Adding Pipelines Features](https://docs.openwebui.com/pipelines/) steps.  
+
+5.) You're good to go!
 
 <!-- ## Deployment on GKE
 

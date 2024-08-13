@@ -1,4 +1,3 @@
-
 # Install and Build Locally
 
 ## Manual Install w/o Ollama
