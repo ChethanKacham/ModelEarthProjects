@@ -26,4 +26,4 @@ For any backend changes, run to maintain code formatting. Add any necessary test
 **5. Pull Requests Merging**:
 After creating a pull request, fill in the template and wait for all workflows to execute. Address any issues if a workflow fails before merging into the main branch.
 
-Note: We removed Ollama and chat.cy.ts in the actions. See our [changelog](https://github.com/datascape/open-webui/blob/gha-test/.github/CHANGELOG-workflow.md). And a [PR](https://github.com/ModelEarth/projects/pull/7) of our changes initially applied in datascape
+Note: We removed Ollama and chat.cy.ts in the actions. See our [changelog](https://github.com/datascape/open-webui/blob/gha-test/.github/CHANGELOG-workflow.md). And a [workflow PR](https://github.com/ModelEarth/projects/pull/7) with these changes initially applied in datascape.
