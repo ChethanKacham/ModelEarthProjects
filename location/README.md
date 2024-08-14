@@ -21,6 +21,16 @@ Instead try simple edits in our [open-webui-earthscape](https://github.com/earth
 
 ## Our OpenWebUI Projects
 
+**“Actions” tabs from our three forks:**
+[modelearth/projects](https://github.com/ModelEarth/projects/actions) - Massively broken (our repo for documentation)  
+[earthscape/open-webui-earthscape](https://github.com/earthscape/open-webui-earthscape/actions) - Fresh fork, a little broken
+[datascape/open-webui](https://github.com/datascape/open-webui/actions) - Fresh fork, the least broken (source of clean PR for projects repo)
+
+For both Datascape and Earthscape, clicking the initial Docker build in Actions was successful.  
+Maybe because nothing had changed yet, so it didn't run a memory-consuming build of Ollama.
+
+TO DO: Try using the techniques in “Build Branches Locally” below to eliminate the Actions tab errors.
+
 TO DO: Use Flask in a [projects/backend/location](https://github.com/ModelEarth/projects/tree/main/backend) folder and interact with our Supabase REST API - Nanden
 
 TO DO: Create an example of running [Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) saved from our [RealityStream CoLab](../../RealityStream/).
