@@ -5,11 +5,11 @@ We opted for Hosting with Pipeline Features (#2)
 ## Cost Comparison
 
 1. Hosting Ollama and Open WebUI together.
-    ![image](./pics/gce-wOllama-cost.png)
+   ![image](./pics/gce-wOllama-cost.png)
 
 2. Hosting with [pipeline](https://docs.openwebui.com/pipelines/) features. This allows the application connecting to external model apis other than OpenAI and Ollama. It requires the developers to build pipeline themselves. See [example](https://github.com/open-webui/pipelines/tree/main/examples/pipelines). Additional API fees might apply based on the provider.
 
-    ![Alt text](./pics/gce-wPipelines-cost.png)
+   ![Alt text](./pics/gce-wPipelines-cost.png)
 
 3. Hosting with OpenAI API endpoints only. Cost should be similar to above. Additional API fees might apply based on the provider.
 
@@ -30,13 +30,13 @@ The open-webui, open-webui-pipeline and modelearth-open-webui images are already
 7. Open Google Cloud Shell. Config it correctly. Checkout gcloud config documentation if needed.
 8. Run the following:
 
-    ```shell
-    gcloud auth configure-docker us-central1-docker.pkg.dev
-    docker pull ghcr.io/open-webui/open-webui:main
-    docker images # check image id
-    docker tag 79aef8c7e645 us-central1-docker.pkg.dev/openwebui-projects1/open-webui/open-webui-image:0.1
-    docker push us-central1-docker.pkg.dev/[PROJECT_ID]/open-webui/open-webui-image:0.1
-    ```
+   ```shell
+   gcloud auth configure-docker us-central1-docker.pkg.dev
+   docker pull ghcr.io/open-webui/open-webui:main
+   docker images # check image id
+   docker tag 79aef8c7e645 us-central1-docker.pkg.dev/openwebui-projects1/open-webui/open-webui-image:0.1
+   docker push us-central1-docker.pkg.dev/[PROJECT_ID]/open-webui/open-webui-image:0.1
+   ```
 
 Repeat the step for pipeline images.
 
@@ -45,9 +45,9 @@ Repeat the step for pipeline images.
 1.) Grant Cloud Run Developer, Service Account User, Artifact Registry Reader, Artifact Registry Writer IAM roles:
 
 &nbsp;&nbsp;&nbsp;<img src="pics/gcr-roles.png" style="max-width:600px">
-&nbsp;&nbsp;&nbsp;<img src="pics/artifact-roles.png" style="max-width:600px">  
+&nbsp;&nbsp;&nbsp;<img src="pics/artifact-roles.png" style="max-width:600px">
 
-2.) Follow [Deploying a service with sidecar containers](https://cloud.google.com/run/docs/deploying#sidecars).  
+2.) Follow [Deploying a service with sidecar containers](https://cloud.google.com/run/docs/deploying#sidecars).
 
 3.) Mount volume to the container
 
@@ -60,7 +60,7 @@ Repeat the step for pipeline images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;For the pipeline image, change the **mount path** to `app/pipelines`.
 
-4.) Then follow [Adding Pipelines Features](https://docs.openwebui.com/pipelines/) steps.  
+4.) Then follow [Adding Pipelines Features](https://docs.openwebui.com/pipelines/) steps.
 
 5.) You're good to go!
 
@@ -74,10 +74,10 @@ A quick start [guide](https://www.youtube.com/watch?v=vIKy3pDz3jM) for a toy pro
 2. ssh the VM instance just created
 3. make a working directory `mkdir webui-projects` and navigate to it `cd webui-projects`
 
-**The following steps are for Ollama installation. You should alter it to suit your needs.** 
+**The following steps are for Ollama installation. You should alter it to suit your needs.**
 4. pull Ollama by
 
-    sudo bash 
+    sudo bash
     curl -fsSL https://ollama.com/install.sh | sh
 
 

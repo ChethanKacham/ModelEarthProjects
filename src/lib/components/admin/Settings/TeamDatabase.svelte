@@ -60,7 +60,7 @@
 
 			<hr class=" dark:border-gray-850 my-1" />
 
-			<div class="  flex w-full justify-between"></div>
+			<div class="  flex w-full justify-between" />
 			<!-- <div class=" self-center text-xs font-medium">{$i18n.t('Allow Chat Deletion')}</div> -->
 		</div>
 	</div>

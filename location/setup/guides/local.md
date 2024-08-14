@@ -4,7 +4,7 @@
 
 For Linux/MacOS:
 
-	bash location/setup/script/conda-start.sh
+    bash location/setup/script/conda-start.sh
 
 For Windows:
 

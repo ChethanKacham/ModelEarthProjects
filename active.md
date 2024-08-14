@@ -13,7 +13,6 @@ medium.com subscription needed
 
 [Site Install](../localsite/start/steps/) - [Observable DataCommons](/data-commons/) - [Open WebUI](location/) - [Storyboard Generator](/data-pipeline/research) - [Moonshots](/community/projects/)
 
-
 <!--
 **Timely Projects**
 
@@ -25,14 +24,17 @@ medium.com subscription needed
 -->
 
 **Feed Player React**
+
 - [Feed Player](../feed/dist) - Video and Images from API feeds and Google Sheet lists
 - [NASA Feed Viewer](../feed/view/#feed=nasa) - JSON, YAML, CSS, RSS - [Address Lookup](/feed/view/#feed=311)
 
 **LLM Interfaces** - Where we'll be embedding data visualizaions
+
 - [Open WebUI (Projects)](location/) with Python and [Retrieval Augmented Generation (RAG)](https://docs.openwebui.com/tutorial/rag/)
 - [Earthscape for Chatbot UI](/earthscape/app/) - React, Supabase and [NextJS Hosting using GitHub Pages](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
 
 **Charts, SQL, Vite, Supabase, AI Chat**
+
 - [Javascript Timelines from Google Data Commons (GDC) API](/data-pipeline/timelines/earthscape/datacommons.html#country=IN,CN,US) - Mehul
 - [Python from GDC API for map filters and UN goal datasets](/localsite/info/data/map-filters/) - Abhishek L., Pratyush, Jack
 
@@ -54,13 +56,13 @@ medium.com subscription needed
 
 
 openai
-Docker path: https://chat.openai.com/share/61b0997f-ea9b-49f7-9bcb-12fa0519a2d1 
+Docker path: https://chat.openai.com/share/61b0997f-ea9b-49f7-9bcb-12fa0519a2d1
 
-Matthew Berman list of true Agents: 
+Matthew Berman list of true Agents:
 https://youtu.be/_AOA6M9Ta2I?si=Bh8SMhyD3GmuCLks&t=378
 
 
-CSV Files to use for Timelines, Observable, and AI Training at: [industries/naics/US/counties](https://github.com/ModelEarth/community-data/tree/master/industries/naics/US/counties)  
+CSV Files to use for Timelines, Observable, and AI Training at: [industries/naics/US/counties](https://github.com/ModelEarth/community-data/tree/master/industries/naics/US/counties)
 Pre-processed data for county industry levels, based on employment, establishments and payroll.-->
 
 **Machine Learning with Python and Google Data Commons**
@@ -83,7 +85,7 @@ Pre-processed data for county industry levels, based on employment, establishmen
 
 - [Python CoLabs for GDC timeline automation - Air and Climate](/data-commons/dist/air)
 - [Observable with Data Commons](/data-commons/) - [Data Loaders How-To](/data-commons/dist/air/)
-- [Chord Chart Data Prep](/io/charts/chord/) - TO DO 
+- [Chord Chart Data Prep](/io/charts/chord/) - TO DO
 - [International Google Data Commons API](/data-commons/) - TO DO
 
 <!--
@@ -99,15 +101,16 @@ Pre-processed data for county industry levels, based on employment, establishmen
 - [Update Farm Fresh Data pull](/community-data/process/python/farmfresh/) - Bhavna - TO DO
 - [Push EPA date to Google Data Commons API](https://docs.datacommons.org/api/)
 
-
 **Storyboard Generator - Images and Video for Request Visualization**
+
 - [Image Gallery (JQuery) and Video (Leonardo)](/data-pipeline/research/stream)
-- [Our Storyboard Generator](/data-pipeline/research/)  
+- [Our Storyboard Generator](/data-pipeline/research/)
 - [Open Webui image generation](https://docs.openwebui.com/tutorial/images/) - Integrate our image .csv process
-<!-- [Kishor's Repo](https://github.com/mannurkishorreddy/streamlit-replicate-img-app)-->
-<!--- [Image Gallery (React)](/react-gallery/view/) - Anthony -->
+  <!-- [Kishor's Repo](https://github.com/mannurkishorreddy/streamlit-replicate-img-app)-->
+  <!--- [Image Gallery (React)](/react-gallery/view/) - Anthony -->
 
 **React, Tabulator, Industry Timelines**
+
 - [React Team - Mosaic column checkboxes](/io/charts) - Pallavi
 - [React Team - Commodity Totals](/localsite/info/data/totals/) in [Jobs Reports](/localsite/info/#indicators=JOBS)
 - [Tabulator - Merge in industry year rows using Javascript (1-3)](/data-pipeline/timelines/tabulator/) - DONE<!--Rupesh, Vadlamudi-->
@@ -118,9 +121,10 @@ Pre-processed data for county industry levels, based on employment, establishmen
 <!-- - [React Team - Impact Side Navigation](/io/charts/inflow-outflow/#set=prosperity&indicators=VADD,JOBS) -->
 
 **Guru Roles**
+
 - [Earthscape NextJS in Open WebUI](/earthscape/app/)
 - [StreamLit integration into Open WebUI](https://github.com/streamlit/streamlit/issues/969)
-- [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/) 
+- [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/)
 
 **Moonshot Challenges** - [Take the leap](/community/projects/)
 <br>

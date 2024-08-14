@@ -6,23 +6,22 @@
 
 **2. Version Updates**: When deploying new features to our main branch, we update the "version" number in package.json in our fork of open-webui. Failure to do so will cause the `build_release` workflow to fail.
 
-**3. Frontend Formatting**: 
+**3. Frontend Formatting**:
 
 A. Before pushing changes to the frontend code, run to ensure proper formatting:
 
-	npm run format
-	npm run i18n:parse
+    npm run format
+    npm run i18n:parse
 
 B. Add your own tests in the `cypress/e2e/` folder and start the server.  
 Run the following to execute the test suites. Ensure all tests pass without errors.
 
-	npx cypress run
+    npx cypress run
 
 **4. Backend Formatting**:
 For any backend changes, run to maintain code formatting. Add any necessary tests to ensure your code changes are covered.
 
-	npm run format:backend
+    npm run format:backend
 
 **5. Pull Requests Merging**:
 After creating a pull request, fill in the template and wait for all workflows to execute. Address any issues if a workflow fails before merging into the main branch.
-
