@@ -13,7 +13,7 @@ Use our [Docker Setup](docker) for a quick install with Ollama for loading model
 
 # Install for Building Locally (without Docker)
 
-### Use our conda-start.sh script to install with one step for Linux/MacOS. [Reference](./guides/local.md)
+### Use our conda-start.sh script to install with one step for Linux/MacOS
 
 These steps are for programmers planning to edit and build locally. Visit [localhost:8080](http://localhost:8080) if you've already install.  
 After the initial one hour or more install, it only takes a minute to restart the server using the same conda-start.sh command below.

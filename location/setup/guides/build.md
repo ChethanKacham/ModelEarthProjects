@@ -3,7 +3,7 @@
 ## Important: To avoid failed "Actions" when contributing
 
 **1. Use ModelEarthBranch**: Work in the ModelEarthBranch when introducing new features.  
-Avoid editing the main branch to avoid `build_release` errors.  
+Avoid editing the main branch to avoid a `build_release` error in the [Actions tab](https://github.com/ModelEarth/projects/actions) - [our cleaner Actions tab](https://github.com/datascape/open-webui/actions).  
 We change the "version" number in package.json (and package-lock.json ?) whenever we add to the main branch.
 
 **2. Frontend Formatting**:
