@@ -22,14 +22,14 @@ Instead try simple edits in our [open-webui-earthscape](https://github.com/earth
 ## Our OpenWebUI Projects
 
 **“Actions” tabs from our three forks:**
-[modelearth/projects](https://github.com/ModelEarth/projects/actions) - Massively broken (our repo for documentation)  
-[earthscape/open-webui-earthscape](https://github.com/earthscape/open-webui-earthscape/actions) - Fresh fork, a little broken
-[datascape/open-webui](https://github.com/datascape/open-webui/actions) - Fresh fork, the least broken (source of [workflow PR](https://github.com/ModelEarth/projects/pull/7) also applied to projects repo)
+A. [modelearth/projects](https://github.com/ModelEarth/projects/actions) - Massively broken (our repo for documentation)  
+B. [earthscape/open-webui-earthscape](https://github.com/earthscape/open-webui-earthscape/actions) - Fresh fork, a little broken
+C. [datascape/open-webui](https://github.com/datascape/open-webui/actions) - Fresh fork, the least broken (source of [workflow PR](https://github.com/ModelEarth/projects/pull/7) also applied to projects repo)
 
 For both Datascape and Earthscape, clicking the initial Docker build in Actions was successful.  
 Maybe because nothing had changed yet, so it didn't run a memory-consuming build of Ollama.
 
-TO DO: Try using the techniques in “Build Branches Locally” below to eliminate the Actions tab errors.
+TO DO: Try using the techniques in “Building Branches Locally” below to eliminate the Actions tab errors.
 
 TO DO: Figure out how to load localsite.js within our clean [Datascape fork](https://github.com/datascape/open-webui/) without generating these [Github Action errors](https://github.com/datascape/open-webui/actions)
 

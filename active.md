@@ -26,7 +26,7 @@ medium.com subscription needed
 **Current Priorities**
 
 - [Exiobase Sankey energy use](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
-- [Add localsite.js to OpenWebUI](/projects/location/) - Use [Build Branches Locally techniques](/projects/location/setup/) with our clean [Datascape fork](https://github.com/datascape/open-webui/actions)
+- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques with our clean [Datascape fork](https://github.com/datascape/open-webui/actions)
 - [Feed Player Visuals intially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
 
 **Feed Player React**
