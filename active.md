@@ -23,6 +23,12 @@ medium.com subscription needed
 	https://github.com/Dhravya/cloudflare-saas-stack
 -->
 
+**Current Priorities**
+
+- [Exiobase Sankey energy use](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+- [Add localsite.js to OpenWebUI](/projects/location/) - Use [Build Branches Locally techniques](/projects/location/setup/) with our clean [Datascape fork](https://github.com/datascape/open-webui/actions)
+- [Feed Player Visuals intially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
+
 **Feed Player React**
 
 - [Feed Player](../feed/dist) - Video and Images from API feeds and Google Sheet lists
