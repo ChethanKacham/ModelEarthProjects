@@ -34,17 +34,17 @@ medium.com subscription needed
 - [Feed Player](../feed/dist) - Video and Images from API feeds and Google Sheet lists
 - [NASA Feed Viewer](../feed/view/#feed=nasa) - JSON, YAML, CSS, RSS - [Address Lookup](/feed/view/#feed=311)
 
-**LLM Interfaces** - Where we'll be embedding data visualizaions
+**LLM Interfaces** - Where we'll be embedding data visualizations
 
 - [Open WebUI (Projects)](location/) with Python and [Retrieval Augmented Generation (RAG)](https://docs.openwebui.com/tutorial/rag/)
 - [Earthscape for Chatbot UI](/earthscape/app/) - React, Supabase and [NextJS Hosting using GitHub Pages](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
 
 **Charts, SQL, Vite, Supabase, AI Chat**
 
-- [Javascript Timelines from Google Data Commons (GDC) API](/data-pipeline/timelines/earthscape/datacommons.html#country=IN,CN,US) - Mehul
-- [Python from GDC API for map filters and UN goal datasets](/localsite/info/data/map-filters/) - Abhishek L., Pratyush, Jack
+- [Javascript Timelines from Google Data Commons API](/data-pipeline/timelines/earthscape/datacommons.html#country=IN,CN,US)
+- [Python pull from Google Data Commons API](/data-commons/docs/data/)
 
-- [International Trade Flow SQL Data Prep](/useeio.js/footprint) - Sahil, Himanshu, Song
+- [International Trade Flow SQL Data Prep](/useeio.js/footprint) - Sahil, Himanshu, Gary, Song
 - [Python to pull Harmonized Code (HS) lookups into Supabase](/OpenFootprint/harmonized-system/) - Chen and Wenjie
 - [Webhook to create Word Doc from Google Form](/webhook) - for [our New Member Signup](/community/members/) - Jingyu
 - [Pull from Supabase (or backup file) into databricks SQL](https://chatgpt.com/share/d610d3e6-ce5f-4e7f-ba9e-4c74ec23abd4) - Apurva, Soham
