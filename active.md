@@ -25,8 +25,8 @@ medium.com subscription needed
 
 **Current Priorities**
 
-- [Feed Player Visuals initially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
 - [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
+- [Python generation of timeline datasets](/data-commons/docs/data/)) - Google Data Commons
 - [Exiobase Sankey mathjax bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
@@ -40,6 +40,7 @@ medium.com subscription needed
 
 - [Feed Player](../feed/dist) - Video and Images from API feeds and Google Sheet lists
 - [NASA Feed Viewer](../feed/view/#feed=nasa) - JSON, YAML, CSS, RSS - [Address Lookup](/feed/view/#feed=311)
+- [Feed Player Visuals initially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
 
 **LLM Interfaces** - Where we'll be embedding data visualizations
 
