@@ -54,7 +54,8 @@ medium.com subscription needed
 - [International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Sahil, Himanshu, Gary, Song
 - [Python to pull Harmonized Code (HS) lookups into Supabase](/OpenFootprint/harmonized-system/) - Chen and Wenjie
 - [Javascript for US State impacts](/useeio.js/footprint/)
-- [Webhook to create Word Doc from Google Form](/webhook) - for [our New Member Signup](/community/members/) - Jingyu
+- [Add Datawrapper.de](https://www.datawrapper.de/) using "link external dataset"
+- [Webhook to create Word Doc from Google Form](/webhook) - for [our New Member Signup](/community/members/) - Done
 - [Pull from Supabase (or backup file) into databricks SQL](https://chatgpt.com/share/d610d3e6-ce5f-4e7f-ba9e-4c74ec23abd4) - Apurva, Soham
 - [View DuckDB from Javascript](/OpenFootprint/prep/sql/duckdb/) - Kelly, Gary
 - [Food Nutrition Labels](/data-commons/docs/food) - Shali and Wenwei (Stella)
