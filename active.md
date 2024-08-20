@@ -26,7 +26,7 @@ medium.com subscription needed
 **Current Priorities**
 
 - [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
-- [Python generation of timeline datasets](/data-commons/docs/data/)) - Google Data Commons
+- [Python generation of timeline datasets](/data-commons/docs/data/) - Google Data Commons
 - [Exiobase Sankey mathjax bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
