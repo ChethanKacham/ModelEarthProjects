@@ -25,9 +25,16 @@ medium.com subscription needed
 
 **Current Priorities**
 
-- [Exiobase Sankey energy use](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
-- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques with our clean [Datascape fork](https://github.com/datascape/open-webui/actions)
-- [Feed Player Visuals intially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
+- [Feed Player Visuals initially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
+- [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
+- [Exiobase Sankey mathjax bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+
+**Gurus Needed**
+
+- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)
+- [Earthscape NextJS in Open WebUI](/earthscape/app/) - React site hosted on our Google Cloud Python server
+- [StreamLit hosting within Open WebUI](https://github.com/streamlit/streamlit/issues/969) - For URL parameters to drive our [RealityStream ML](/RealityStream/)
+- [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/) - with our .csv timelines and DuckDB Parquet impact files
 
 **Feed Player React**
 
@@ -44,8 +51,9 @@ medium.com subscription needed
 - [Javascript Timelines from Google Data Commons API](/data-pipeline/timelines/earthscape/datacommons.html#country=IN,CN,US)
 - [Python pull from Google Data Commons API](/data-commons/docs/data/)
 
-- [International Trade Flow SQL Data Prep](/useeio.js/footprint) - Sahil, Himanshu, Gary, Song
+- [International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Sahil, Himanshu, Gary, Song
 - [Python to pull Harmonized Code (HS) lookups into Supabase](/OpenFootprint/harmonized-system/) - Chen and Wenjie
+- [Javascript for US State impacts](/useeio.js/footprint/)
 - [Webhook to create Word Doc from Google Form](/webhook) - for [our New Member Signup](/community/members/) - Jingyu
 - [Pull from Supabase (or backup file) into databricks SQL](https://chatgpt.com/share/d610d3e6-ce5f-4e7f-ba9e-4c74ec23abd4) - Apurva, Soham
 - [View DuckDB from Javascript](/OpenFootprint/prep/sql/duckdb/) - Kelly, Gary
@@ -126,11 +134,6 @@ Pre-processed data for county industry levels, based on employment, establishmen
 
 <!-- - [React Team - Impact Side Navigation](/io/charts/inflow-outflow/#set=prosperity&indicators=VADD,JOBS) -->
 
-**Guru Roles**
-
-- [Earthscape NextJS in Open WebUI](/earthscape/app/)
-- [StreamLit integration into Open WebUI](https://github.com/streamlit/streamlit/issues/969)
-- [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/)
 
 **Moonshot Challenges** - [Take the leap](/community/projects/)
 <br>
