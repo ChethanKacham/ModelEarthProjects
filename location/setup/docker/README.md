@@ -6,6 +6,7 @@ Since Docker restarts local containers when your computer restarts, you may alre
 [http://localhost:3000](http://localhost:3000) running if you've added to Docker previously.
 
 Also see <a href="https://docs.openwebui.com/getting-started/">Quick Start with Docker (recommended)</a> and [Open WebUI install video](https://www.youtube.com/watch?v=N-aRJe--txs)
+which walks through downloading Ollama and Docker like we do below.
 
 Once you have the site running, you can copy model names from the [Model Library](https://ollama.com/library). The model "mistral" is small and fast.
 
@@ -252,9 +253,10 @@ Increased memory limit from 8GB to 24GB
 Increase Swap from 1GB to 3GB
 -->
 
+<!--
 ## How to build with a different "src" file
 
-We're not taking this approach, prepending "team-" instead.
+We're not taking this approach. We're prepending "team-" instead.
 
 1.) Add to vite.config.js: root: 'src-merged'
 
@@ -269,6 +271,7 @@ params: 'src-merged/params',
 routes: 'src-merged/routes',  
 serviceWorker: 'src-merged/service-worker',  
 appTemplate: 'src-merged/app.html'
+-->
 
 ---
 
