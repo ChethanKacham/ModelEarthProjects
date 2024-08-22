@@ -59,7 +59,8 @@ Now you can build to apply changes from "src" and "backup".
 "npm run build" seems to break secure https 0.0.0.0:8080 hosting.  
 (Perhaps because the test included the external localsite.js file.)
 
-Don't use `npm run dev` it only hosts the frontend and you'll get a message that the backend did not build.
+<b><span style="color:red">Don't use</span></b> `npm run dev` it only hosts the frontend and you'll get a message that the backend did not build.  
+Instead, use `npm run format:backend` &nbsp;(More info below in "Building Branches Locally")<!-- need to confirm that works -->
 
 ### Related Notes
 
