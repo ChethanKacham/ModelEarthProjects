@@ -4,11 +4,14 @@
 
 <!--Pinecone -->
 
-View our [simple setup without Docker](guides). More detailed steps below.
+View our **[Quick setup without Docker](guides)**. More detailed steps below.
 
 If you already have an "open-webui" Docker container, your OpenWebUI server may already be running at [localhost:3000](http://localhost:3000) (since Docker restarts it when you start your computer). You can now [train with a web page](train).
 
-Use our [Docker Setup](docker) for a quick install with Ollama for loading models. The page also includes experiments in which we extract backend files to edit in a Webroot. We're not sure if un-built frontend files can reside in OpenWebUI Docker container images.
+Use our [Docker Setup](docker) for a quick install using Ollama to load models. The page also includes experiments in which we extract backend files to edit in a Webroot. We're not sure if un-built frontend files can reside in OpenWebUI Docker container images.
+
+Our [Google Cloud hosting](google-cloud) notes.
+
 <br>
 
 # Install for Building Locally (without Docker)

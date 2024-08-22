@@ -1,3 +1,4 @@
+[Setup](../)
 # Google Cloud Guide
 
 We opted for Hosting with Pipeline Features (#2)

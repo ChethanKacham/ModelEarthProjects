@@ -27,6 +27,7 @@ start.bat
 ```
 
 Page should be up at http://localhost:8080
+Avoid using `npm run dev` or you'll get a message that the backend did not build.
 If you encounter issues, see our [Detailed Install Notes](../).
 
 ## Using Docker w/ Ollama

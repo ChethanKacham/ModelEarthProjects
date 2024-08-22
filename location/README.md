@@ -6,13 +6,14 @@ GETTING STARTED
 
 If you're contributing code, use our [Install for Building Locally](setup) steps.  
 To build locally, you'll skip the local Docker install. Fork our [projects](https://github.com/ModelEarth/projects/) repo, which is a fork of open-webui.
+[Our Google Cloud deployment](setup/guides)  
 
 If you're NOT contributing code while building locally, use the [local Docker install](setup/docker) instead.
 
 
 ## Contribute in our Open WebUI "projects/location" folder
 
-The "projects/location" folder is where we add extras - we're still perfecting [build process](setup).  
+The "projects/location" folder is where we add extras - we're still perfecting [building locally for deployment](setup).  
 To avoid merge errors, if you're making updates in the "src" and "backend" folders,
 prepend "team-" to the names of the files you've copied and customized.
 
