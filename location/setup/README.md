@@ -24,10 +24,15 @@ After the initial one hour or more install, it only takes a minute to restart th
 If you machine needs updates, our [node, python and conda upgrade page](https://model.earth/io/coders/python) is helpful.  
 If you're not planning to edit, you can install faster using a [local Docker instance](docker).
 
-We recommend using GitHub Desktop to pull [our projects repo](https://github.com/modelearth/projects/) to your computer, or you can clone with a command:
+You can use GitHub Desktop to pull [our fork](https://github.com/earthscape/open-webui-earthscape/) to your computer, or you can clone with a command:
 
+<!--
     git clone https://github.com/modelearth/projects.git
     cd projects/
+-->
+
+    git clone https://github.com/earthscape/open-webui-earthscape.git
+    cd open-webui-earthscape
 
 Check that you have cmd apps available, including a 3.11 version of python.
 
