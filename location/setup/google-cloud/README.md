@@ -3,7 +3,7 @@
 
 We opted for Hosting with Pipeline Features (#2)
 
-## Cost Comparison
+## Cost Comparison and Deployment Steps
 
 1. Hosting Ollama and Open WebUI together.
    ![image](./pics/gce-wOllama-cost.png)
