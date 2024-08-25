@@ -51,11 +51,12 @@ medium.com subscription needed
 **LLM Interfaces** - Where we'll be embedding data visualizations
 
 - [Open WebUI (Projects)](location/) with Python and [Retrieval Augmented Generation (RAG)](https://docs.openwebui.com/tutorial/rag/)
+for "context window" recency<!-- Next: Text to Action / Nividia Kuda is their advantage = code library that interacts with chip -->
 - [Earthscape for Chatbot UI](/earthscape/app/) - React, Supabase and [NextJS Hosting using GitHub Pages](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
 
 **Charts, SQL, Vite, Supabase, AI Chat**
 
-- [Javascript Timelines from Google Data Commons API](/data-pipeline/timelines/earthscape/datacommons.html#country=IN,CN,US)
+- [Javascript Timelines from Google Data Commons API](/data-commons/docs/data/)
 - [Python pull from Google Data Commons API](/data-commons/docs/data/)
 
 - [International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Sahil, Himanshu, Gary, Song
