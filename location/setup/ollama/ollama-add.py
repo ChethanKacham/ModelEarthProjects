@@ -1,5 +1,6 @@
 # ollama-add.py
 
+import sys
 import importlib
 import re
 
@@ -7,12 +8,15 @@ ollama_common = importlib.import_module("ollama-common")
 phrases = ollama_common.phrases
 
 def remove_initial_hash_from_file(phrases):
+    pathToRoot = "../../../"
+    if len(sys.argv[1]) > 1:
+        pathToRoot = sys.argv[1]
     for filename, phrase_list in phrases.items():
         # Print the filename to the terminal
-        print(f"\rProcessing file: {filename}")
+        print(f"\rProcessing file: {pathToRoot}{filename}")
 
         # Read lines from the file
-        with open(filename, 'r') as file:
+        with open(pathToRoot + filename, 'r') as file:
             lines = file.readlines()
 
         # Process the lines to remove initial '#' where necessary
@@ -33,7 +37,7 @@ def remove_initial_hash_from_file(phrases):
                 updated_lines.append(line)
 
         # Write the updated lines back to the file
-        with open(filename, 'w') as file:
+        with open(pathToRoot + filename, 'w') as file:
             file.writelines(updated_lines)
 
 # Call the function to process all files listed in the phrases dictionary
