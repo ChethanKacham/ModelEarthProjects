@@ -1,12 +1,13 @@
 # Remove and add back Ollama
 
-**ollama-remove.py**
+**comment-out.py**
 Remove before deploying via Docker to Google Cloud (or other host)
 
-**ollama-add.py**
-Add back to sync with parent open-webui repo
+**uncomment.py**
+Add back Ollama to sync with the parent open-webui repo
 
 
-Run in the root of your website to apply scripts to other forks in your webroot.
+Run in the root of your website to apply scripts.
+Change "projects" to other open-webui forks in your webroot.
 
-	python projects/location/setup/ollama/ollama-add.py "projects"
+	python projects/location/setup/ollama/comment-out.py "projects"

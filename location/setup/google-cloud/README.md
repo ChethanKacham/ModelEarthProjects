@@ -12,6 +12,9 @@ We opted for Hosting with Pipeline Features (#2)
 
    ![Alt text](./pics/gce-wPipelines-cost.png)
 
+Since Ollama is NOT needed with external pipelines, we're preparing 
+[comment-out.py](../ollama) to comment out Ollama, and uncomment.py to restore Olama.
+
 3. Hosting with OpenAI API endpoints only. Cost should be similar to above. Additional API fees might apply based on the provider.
 
 ## Deployment on GCR (cloud run)

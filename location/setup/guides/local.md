@@ -40,7 +40,9 @@ docker run -d -p 8080:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/da
 
 ### Add pipelines feature
 
-Check out this [quick-start guide](https://docs.openwebui.com/pipelines/) and see our [Google Cloud cost comparisons](../google-cloud) and deployment steps.
+Check out this [quick-start guide](https://docs.openwebui.com/pipelines/) and see our [Google Cloud cost comparisons](../google-cloud) and deployment steps.  
+Since Ollama is NOT needed with external pipelines, we're preparing 
+[comment-out.py](../ollama) to comment out Ollama, and uncomment.py to restore Olama.
 
 ## Other Installation Methods
 
