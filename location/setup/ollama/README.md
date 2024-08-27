@@ -9,4 +9,4 @@ Add back to sync with parent open-webui repo
 
 Run in the root of your website to apply scripts to other forks in your webroot.
 
-	python projects/location/setup/ollama/ollama-add.py "../../../"
+	python projects/location/setup/ollama/ollama-add.py "projects"
