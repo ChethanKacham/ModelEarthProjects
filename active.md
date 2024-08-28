@@ -26,8 +26,10 @@ medium.com subscription needed
 
 **Current Priorities**
 
-- [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
+- [Document adding Flask as our webroot](../localsite/start/steps/)
 - [Python generation of timeline datasets](/data-commons/docs/data/) - Google Data Commons
+- [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
+- [Python to add/remove comment tags](location/setup/ollama) - Script reactivates Ollama for Sync with OpenWebUI
 - [Exiobase Sankey mathjax bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
