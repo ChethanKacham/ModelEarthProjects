@@ -23,7 +23,7 @@ medium.com subscription needed
 	https://github.com/Dhravya/cloudflare-saas-stack
 -->
 
-Create an account in [Omdena.com](https://omdena.com) and help us create team panels using the [Discord API](https://discord.com/developers/docs/intro).
+Create a developer account in [Omdena.com](https://omdena.com) and help us create [team panels](/panels) using the [Discord API](https://discord.com/developers/docs/intro).
 
 **Current Priorities**
 
