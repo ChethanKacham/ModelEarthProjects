@@ -23,10 +23,11 @@ medium.com subscription needed
 	https://github.com/Dhravya/cloudflare-saas-stack
 -->
 
+Create an account in [Omdena.com](https://omdena.com) and help us create team panels using the [Discord API](https://discord.com/developers/docs/intro).
 
 **Current Priorities**
 
-- [Document adding Flask as our webroot](../localsite/start/steps/)
+- [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 - [Python generation of timeline datasets](/data-commons/docs/data/) - Google Data Commons
 - [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
 - [Python to add/remove comment tags](location/setup/ollama) - Script reactivates Ollama for Sync with OpenWebUI
