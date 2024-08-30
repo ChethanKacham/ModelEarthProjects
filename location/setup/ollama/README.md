@@ -10,6 +10,8 @@ Remove before deploying via Docker to Google Cloud (or other host)
 **uncomment.py**
 Add back Ollama to sync with the parent open-webui repo
 
+Fork and clone the projects repor (which is a fork of open-webui)
+[github.com/ModelEarth/projects](https://github.com/ModelEarth/projects)
 
 Run in the root of your website to apply scripts.
 
