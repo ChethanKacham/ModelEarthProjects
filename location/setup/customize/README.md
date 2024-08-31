@@ -1,7 +1,7 @@
 # Customize Open Web UI
 
 We're building add-ons for Teams and Locations.
-The following will remove custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
+The following will remove our custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
 
 ## Sync.py
 

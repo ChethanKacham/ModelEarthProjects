@@ -18,6 +18,8 @@ Run the following to execute the test suites. Ensure all tests pass without erro
 
     npx cypress run
 
+<b><span style="color:red">Don't use</span></b> `npm run dev` it only hosts the frontend and you'll get a message that the backend did not build. 
+
 **3. Backend Formatting**:
 For any backend changes, run to maintain code formatting.  
 Add any necessary tests to ensure your code changes are covered.

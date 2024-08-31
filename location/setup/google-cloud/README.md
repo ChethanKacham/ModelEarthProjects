@@ -3,6 +3,8 @@
 
 We opted for Hosting with Pipeline Features (#2)
 
+You can turn off a project to save costs. Add a [lien to prevent deletion after 30 days](https://cloud.google.com/resource-manager/docs/project-liens#:~:text=To%20place%20a%20lien%20on,See%20more%20code%20actions.&text=Replace%20the%20following%3A,project%20the%20lien%20applies%20to.).
+
 ## Cost Comparison and Deployment Steps
 
 1. Hosting Ollama and Open WebUI together.
