@@ -11,7 +11,7 @@ We opted for Hosting with Pipeline Features (#2)
 2. Hosting with [pipeline](https://docs.openwebui.com/pipelines/) features. This allows the application connecting to external model apis other than OpenAI and Ollama. It requires the developers to build pipeline themselves. See [example](https://github.com/open-webui/pipelines/tree/main/examples/pipelines). Additional API fees might apply based on the provider.
 
     Since Ollama is increases the cost unnecessarily when installed with external pipelines, we're preparing 
-    [comment-out.py](../ollama) to comment out Ollama, and uncomment.py to restore Olama.
+    [customize.py](../ollama) to comment out Ollama, and sync.py to restore Olama.
 
     ![Alt text](./pics/gce-wPipelines-cost.png)
 

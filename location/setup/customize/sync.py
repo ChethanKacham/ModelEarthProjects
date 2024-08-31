@@ -1,4 +1,4 @@
-# ollama-add.py
+# sync.py
 
 import sys
 import importlib

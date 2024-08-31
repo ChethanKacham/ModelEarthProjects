@@ -31,7 +31,7 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Python generation of timeline datasets](/data-commons/docs/data/) - Google Data Commons
 - [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
 - [Python to add/remove comment tags](location/setup/ollama) - Script reactivates Ollama for Sync with OpenWebUI
-- [Exiobase Sankey mathjax bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+- [Our Exiobas Repo for Sankey python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) - [ bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
 

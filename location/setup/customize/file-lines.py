@@ -1,4 +1,5 @@
-# ollama-common.py
+# file-lines.py
+# Used by both customize.py and sync.py
 
 phrases = {
     "docker-compose.api.yaml": [

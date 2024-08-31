@@ -1,4 +1,4 @@
-# comment-out.py
+# customize.py
 
 import importlib
 
