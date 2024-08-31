@@ -1,34 +1,20 @@
-# Customize for Teams and Locations
+# Customize Open Web UI
 
-We custom code, then remove customizations when syncing from the open-webui parent.
-
-## Customize.py
-
-Comment out Ollama
-
-Remove before deploying via Docker to Google Cloud (or other host)
-
-# TO DO in src/app.html
-
-Change title="Open WebUI" to "Open WebUI ModelEarth"
-
-# Insert:
-
-	<script type="text/javascript" src="https://model.earth/localsite/js/localsite.js?showheader=true&showsearch=true"></script>
-
+We're building add-ons for Teams and Locations.
+The following will remove custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
 
 ## Sync.py
 
-TO DO: Change title back to "Open WebUI" and remove inserted localsite.js
+Develop sync.py in [github.com/ModelEarth/projects](https://github.com/ModelEarth/projects) (which is a fork of open-webui)
 
-Add back Ollama to sync with the parent open-webui repo
+<!-- TO DO: Change title back to "Open WebUI" and remove inserted localsite.js -->
 
-Fork and clone the projects repor (which is a fork of open-webui)
-[github.com/ModelEarth/projects](https://github.com/ModelEarth/projects)
+TO DO: Remove comments we added to deactivate Ollama. 
+Files and lines updated are in file-lines.py (which will also be used by customize.py to add comments).
 
 Run in the root of your website to apply scripts.
 
-	python projects/location/setup/ollama/customize.py "projects"
+	python projects/location/setup/ollama/sync.py "projects"
 
 
 After completing code updates using the "projects" repo,
@@ -36,6 +22,20 @@ make a fork of this repo: [github.com/datascape/open-webui](https://github.com/d
 
 Pull your fork locally, then run:
 
-	python projects/location/setup/ollama/customize.py "open-webui"
+	python projects/location/setup/ollama/sync.py "open-webui"
 
-Update the "sync.py" script to do the reverse of the "customize.py" script.
+
+## Customize.py
+
+We comment out Ollama to reduce costs when deploying Docker to Google Cloud.
+
+Update the "customize.py" script to do the reverse of the "customize.py" script.
+
+**TO DO in src/app.html**
+
+Change title="Open WebUI" to "Open WebUI ModelEarth"
+
+Insert:
+
+	<script type="text/javascript" src="https://model.earth/localsite/js/localsite.js?showheader=true&showsearch=true"></script>
+

@@ -21,16 +21,18 @@ medium.com subscription needed
 
 	Full-Stack Cloudflare SaaS kit
 	https://github.com/Dhravya/cloudflare-saas-stack
--->
+
 
 Create a developer account in [Omdena.com](https://omdena.com) and help us create [team panels](/panels) using the [Discord API](https://discord.com/developers/docs/intro).
 
+- [Document adding Flask as our optional python webroot](../localsite/start/steps/)
+-->
+
 **Current Priorities**
 
-- [Document adding Flask as our optional python webroot](../localsite/start/steps/)
-- [Python generation of timeline datasets](/data-commons/docs/data/) - Google Data Commons
-- [Javascript enhancements for US EPA impact report samples](/useeio.js/footprint/)
-- [Python to add/remove comment tags](location/setup/ollama) - Script reactivates Ollama for Sync with OpenWebUI
+- [Timelines using both javascript and python](/data-commons/docs/data/) - Google Data Commons
+- [Javascript updates for US EPA impact report samples](/useeio.js/footprint/)
+- [OpenWebUI Customize.py](location/setup/customize) - Reactivates Ollama for Sync
 - [Our Exiobas Repo for Sankey python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) - [ bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
