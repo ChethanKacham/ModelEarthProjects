@@ -28,6 +28,10 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
+**Tonight**
+
+[Turn on Google Cloud Lein](location/setup/google-cloud) to retain paused sites
+
 **Current Priorities**
 
 - [Timelines using both javascript and python](/data-commons/docs/data/) - Google Data Commons
@@ -37,8 +41,8 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 
 **Gurus Needed**
 
-- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)
-- [Earthscape NextJS in Open WebUI](/earthscape/app/) - React site hosted on our Google Cloud Python server
+- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)<!-- 
+- [Earthscape NextJS in Open WebUI](/earthscape/app/) - React site hosted on our Google Cloud Python server-->
 - [StreamLit hosting within Open WebUI](https://github.com/streamlit/streamlit/issues/969) - For URL parameters to drive our [RealityStream ML](/RealityStream/)
 - [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/) - with our .csv timelines and DuckDB Parquet impact files
 
