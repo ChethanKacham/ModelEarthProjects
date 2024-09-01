@@ -41,15 +41,14 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 
 **Gurus Needed**
 
-- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)<!-- 
-- [Earthscape NextJS in Open WebUI](/earthscape/app/) - React site hosted on our Google Cloud Python server-->
+- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)
 - [StreamLit hosting within Open WebUI](https://github.com/streamlit/streamlit/issues/969) - For URL parameters to drive our [RealityStream ML](/RealityStream/)
 - [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/) - with our .csv timelines and DuckDB Parquet impact files
-
 - [Expand on our webhook with Discord API](/webhook) - Sends Word Doc from Google Form   
 - [Pull zip code Imputation ML](/machine-learning/) into our [RealityStream CoLab](/RealityStream)  
 - [Python for Exiobase trade impact data](https://pymrio.readthedocs.io/en/latest/intro.html)
 <!-- DemocracyLab Django Python integration -->
+<!-- [Earthscape NextJS in Open WebUI](/earthscape/app/) - React site hosted on our Google Cloud Python server-->
 
 **Feed Player React**
 
