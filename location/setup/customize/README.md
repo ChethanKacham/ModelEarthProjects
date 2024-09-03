@@ -29,7 +29,7 @@ Pull your fork locally, then run:
 
 We comment out Ollama to reduce costs when deploying Docker to Google Cloud.
 
-Update the "customize.py" script to do the reverse of the "customize.py" script.
+Update the "customize.py" script to do the reverse of the "sync.py" script.
 
 **TO DO in src/app.html**
 
