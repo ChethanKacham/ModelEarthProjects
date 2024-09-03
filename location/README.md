@@ -50,7 +50,7 @@ TO DO: Set up [RAG context](https://docs.openwebui.com/tutorial/rag/) using our 
 
 TO DO: Provide a means to upload a list of members from a Google Sheet link.
 
-DONE: Provide a button for admins to export the list of members as a CSV file. (In ModelEarthBranch) - Yuxin
+DONE: Provide a button for admins to export the list of members as a CSV file. (In [ModelEarthBranch](https://github.com/ModelEarth/projects/tree/ModelEarthBranch)) - Yuxin
 
 TO DO: Update our Readme in localsite.js to one that supports [NOTE], [WARNING], [TIP]
 
