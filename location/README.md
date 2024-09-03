@@ -14,8 +14,10 @@ If you're NOT contributing code while building locally, use the faster [local Do
 ## Contribute in our Open WebUI "projects/location" folder
 
 The "projects/location" folder is where we add extras - we're still perfecting [building locally for deployment](setup).  
+
 To avoid merge errors, if you're making updates in the "src" and "backend" folders,
-prepend "team-" to the names of the files you've copied and customized.
+append "-team" to the names of the files you've copied and customized.
+Update our [setup customization](setup/customize) to add and remove code to support our mods.
 
 TO DO: The html we added in this "projects" fork is breaking the GitHub Docker build.  
 Instead try simple edits in our [open-webui-earthscape](https://github.com/earthscape/open-webui-earthscape) fork. (Write loren to be added as a contributor.)
