@@ -12,7 +12,10 @@ Develop sync.py in [github.com/ModelEarth/projects](https://github.com/ModelEart
 TO DO: Remove comments we added to deactivate Ollama. 
 Files and lines updated are in file-lines.py (which will also be used by customize.py to add comments).
 
-Run in the root of your website to apply scripts.
+The pages to include in file-lines.py are listed in the following Pull Request (PR):
+[github.com/ModelEarth/projects/pull/7](https://github.com/ModelEarth/projects/pull/7)
+
+Run in the root of your website to reactivate Ollama prior to syncing:
 
 	python projects/location/setup/ollama/sync.py "projects"
 
