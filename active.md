@@ -28,9 +28,10 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Tonight**
+**Friday and Sunday**
 
-[Turn on Google Cloud Lein](location/setup/google-cloud) to retain paused sites
+[Let's explore Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) for displaying Colabs in web page dashboards using Plotly and Seaborn charts.  
+We'll also [turn on Google Cloud Lein](location/setup/google-cloud) to retain paused sites more than a month.
 
 **Current Priorities**
 
