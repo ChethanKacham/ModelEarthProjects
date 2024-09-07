@@ -28,7 +28,7 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Friday and Sunday**
+**Sunday**
 
 [Let's explore Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) for displaying Colabs in web page dashboards using Plotly and Seaborn charts.  
 We'll also [turn on Google Cloud Lein](location/setup/google-cloud) to retain paused sites more than a month.
@@ -38,7 +38,7 @@ We'll also [turn on Google Cloud Lein](location/setup/google-cloud) to retain pa
 - [Timelines using both javascript and python](/data-commons/docs/data/) - Google Data Commons
 - [Javascript updates for US EPA impact report samples](/useeio.js/footprint/)
 - [OpenWebUI Customize.py](location/setup/customize) - Reactivates Ollama for Sync
-- [Our Exiobas Repo for Sankey python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) - [ bug](https://sankey.theshiftproject.org/) - Start by resolving issue in [Mapping-global-ghg-emissions](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+- [Our little trade flow Sankey](/Openfootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
 

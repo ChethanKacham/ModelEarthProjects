@@ -47,7 +47,7 @@ See the [pyenv install links](/io/coders/python/) on our python notes page, then
     pyenv local 3.11
 
 **On Windows**
-You can run the "start.bat" steps on [Open WebUI Getting Started](https://docs.openwebui.com/getting-started/). We've documented how to deploy the [Windows steps with conda](https://github.com/ModelEarth/projects/blob/gcp/location/setup/guides/local.md)
+You can run the "start.bat" steps on [Open WebUI Getting Started](https://docs.openwebui.com/getting-started/). We've documented how to deploy the [Windows steps with conda](guides)
 
 **On Mac and Linux**
 Run the following in the root of the "projects" folder. Our [conda-start.sh](https://github.com/ModelEarth/projects/blob/main/location/setup/script/conda-start.sh) script invokes python3.11 so you might need [pyenv](https://model.earth/io/coders/python).
