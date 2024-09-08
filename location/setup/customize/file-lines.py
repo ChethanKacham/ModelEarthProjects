@@ -30,8 +30,45 @@ phrases = {
         "  - 'WEBUI_SECRET_KEY='",
 
         "ollama: {}"
+    ],
+
+    "intergration-test" : [
+        '- name: Wait for Ollama to be up',
+        'timeout-minutes: 5',
+        'run: |',
+        '  until curl --output /dev/null --silent --fail http://localhost:11434; do',
+        "    printf '.'",
+        '    sleep 1',
+        '  done',
+        '  echo "Service is up!"',
+
+        '- name: Preload Ollama model',
+        'run: |',
+        '  docker exec ollama ollama pull qwen:0.5b-chat-v1.5-q2_K',
+
+    ],
+
+    "cypress.config.ts" : [
+        'env: {',
+        "    SKIP_OLLAMA_TESTS: 'false'",
+        '}',
+    ],
+
+    "chat.cy.ts": [
+        'beforeEach(function () {',
+        "    if (Cypress.env('SKIP_OLLAMA_TESTS')) {",
+        "        cy.log('Skipping all tests in the Settings suite');",
+        '        this.skip();',
+        '    } else {',
+        '        // Login as the admin user',
+        '        cy.loginAdmin();',
+        '        // Visit the home page',
+        "        cy.visit('/');",
+        '    }',
+        '});'
     ]
 }
+
 
 # 
 # SKIP_OLLAMA_TESTS: 'true'
