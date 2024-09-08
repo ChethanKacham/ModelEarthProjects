@@ -1,63 +1,76 @@
+# sync.py
+
 import sys
 import importlib
 import re
+#from collections import OrderedDict
 
-# Importing phrases from file-lines.py (adjust the path based on your structure)
-ollama_common = importlib.import_module("file_lines")
+ollama_common = importlib.import_module("ollama-common")
+#phrases = OrderedDict(ollama_common.phrases) # Preserve order from incoming object
 phrases = ollama_common.phrases
 
-def remove_initial_hash_from_file(phrases):
+def removing_ollama_lines(phrases):
     pathToRoot = "../../../"
     if len(sys.argv[1]) > 1:
         pathToRoot = sys.argv[1]
         if not pathToRoot.endswith('/'):
             pathToRoot += '/'
-    
-    # Process each file listed in 'phrases'
+
+    # Process each file and its associated phrases
     for filename, phrase_list in phrases.items():
-        print()  # Blank line
-        print(f"Processing file: {pathToRoot}{filename}")
+        print() #Blank Line
+        print(f"\rProcessing file: {pathToRoot}{filename}")
 
         # Read lines from the file
         with open(pathToRoot + filename, 'r') as file:
             lines = file.readlines()
 
-        # Process the lines to remove blocks or individual lines
+        # Process the lines to remove initial '#' where necessary
         updated_lines = []
-        skip_block = False  # Flag to track if we are in a block to be removed
+        skip_block = False  # Used for cypress.config.ts processing
+        revert_block = False  # Used for chat.cy.ts processing
 
-        for i, line in enumerate(lines):
-            stripped_line = line.strip()
+        for line in lines:
+            stripped_line = re.sub(r'^\s*#', '', line, 1).rstrip()  # Remove initial spaces and '#'
+            print(f"LINE: {stripped_line}")
 
-            # Check if we are currently skipping a block
-            if skip_block:
-                # If we're at the end of a block, stop skipping
-                if stripped_line == '}':
-                    skip_block = False
-                # Skip the line
-                continue
-
-            # Check if the current line starts a block that needs to be removed
+            # Remove the initial hash tag if found in phrases
             for phrase in phrase_list:
-                # If the phrase matches the start of a block (like 'env: {')
                 if stripped_line == phrase:
-                    # If this is the start of a block, set the skip flag
-                    if stripped_line.endswith('{'):
-                        skip_block = True
-                        break
-                    # If it's a single line phrase, skip just this line
-                    elif stripped_line == phrase:
-                        print(f"Skipping line: {stripped_line}")
-                        break
+                    print(f"Found: {phrase}")
+                    if re.match(r'^\s*#', line):  # If the line starts with a # or is preceded only by whitespace
+                        updated_lines.append(line.replace('#', '', 1))  # Remove the initial '#' and retain spaces
+                    else:
+                        updated_lines.append(line)
+                    break
             else:
-                # If no match, add the line to the updated lines
                 updated_lines.append(line)
+
+            # Process specific files
+            if filename == "cypress.config.ts":
+                # Handle block skipping logic for env block
+                if "env:" in line:
+                    skip_block = True
+                    updated_lines.append(line)
+                elif "}" in line and skip_block:
+                    skip_block = False  # End of the env block, stop skipping
+                elif not skip_block:
+                    updated_lines.append(line)
+
+            if filename == "chat.cy.ts":
+                # Handle reverting beforeEach block in chat.cy.ts
+                if "beforeEach(function ()" in line:
+                    revert_block = True
+                    updated_lines.append(line.replace('function ()', '()'))  # Replace function with arrow function
+                elif revert_block and "});" in line:
+                    revert_block = False  # End of the beforeEach block
+                    updated_lines.append(line)
+                elif not revert_block:
+                    updated_lines.append(line)
 
         # Write the updated lines back to the file
         with open(pathToRoot + filename, 'w') as file:
             file.writelines(updated_lines)
 
 # Call the function to process all files listed in the phrases dictionary
-remove_initial_hash_from_file(phrases)
-
-
+removing_ollama_lines(phrases)
