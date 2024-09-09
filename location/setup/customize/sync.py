@@ -3,6 +3,7 @@
 import sys
 import importlib
 import re
+import os
 #from collections import OrderedDict
 
 ollama_common = importlib.import_module("ollama-common")
@@ -15,7 +16,12 @@ def remove_initial_hash_from_file(phrases):
         pathToRoot = sys.argv[1]
         if not pathToRoot.endswith('/'):
             pathToRoot += '/'
+
     for filename, phrase_list in phrases.items():
+        file_path = pathToRoot + filename
+        if not os.path.exists(file_path):
+            print(f"File {file_path} does not exist. Skipping.")
+            continue
         print() # Blank line
         print(f"\rProcessing file: {pathToRoot}{filename}")
 

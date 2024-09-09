@@ -3,6 +3,7 @@
 import sys
 import importlib
 import re
+import os
 
 # Import phrases from file-lines.py
 ollama_common = importlib.import_module("file-lines")
@@ -17,6 +18,10 @@ def adding_ollama_lines(phrases):
 
     # Process each file and its associated phrases
     for filename, phrase_list in phrases.items():
+        file_path = pathToRoot + filename
+        if not os.path.exists(file_path):
+            print(f"File {file_path} does not exist. Skipping.")
+            continue
         print(f"Processing file: {pathToRoot}{filename}")
 
         # Read lines from the file
