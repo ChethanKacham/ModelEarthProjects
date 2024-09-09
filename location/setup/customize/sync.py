@@ -3,6 +3,7 @@
 import sys
 import importlib
 import re
+import os
 #from collections import OrderedDict
 
 file_lines = importlib.import_module("file-lines")
@@ -16,9 +17,12 @@ def removing_ollama_lines(phrases):
         if not pathToRoot.endswith('/'):
             pathToRoot += '/'
 
-    # Process each file and its associated phrases
     for filename, phrase_list in phrases.items():
-        print() #Blank Line
+        file_path = pathToRoot + filename
+        if not os.path.exists(file_path):
+            print(f"File {file_path} does not exist. Skipping.")
+            continue
+        print() # Blank line
         print(f"\rProcessing file: {pathToRoot}{filename}")
 
         # Read lines from the file
