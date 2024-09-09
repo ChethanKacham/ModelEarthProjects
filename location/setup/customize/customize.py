@@ -5,8 +5,8 @@ import importlib
 import re
 
 # Import phrases from file-lines.py
-ollama_common = importlib.import_module("file-lines")
-phrases = ollama_common.phrases
+file_lines = importlib.import_module("file-lines")
+phrases = file_lines.phrases
 
 def adding_ollama_lines(phrases):
     pathToRoot = "../../../"

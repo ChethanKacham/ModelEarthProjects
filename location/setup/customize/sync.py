@@ -5,9 +5,9 @@ import importlib
 import re
 #from collections import OrderedDict
 
-ollama_common = importlib.import_module("ollama-common")
-#phrases = OrderedDict(ollama_common.phrases) # Preserve order from incoming object
-phrases = ollama_common.phrases
+file_lines = importlib.import_module("file-lines")
+#phrases = OrderedDict(file_lines.phrases) # Preserve order from incoming object
+phrases = file_lines.phrases
 
 def removing_ollama_lines(phrases):
     pathToRoot = "../../../"

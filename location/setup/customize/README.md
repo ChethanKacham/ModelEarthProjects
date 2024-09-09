@@ -17,7 +17,7 @@ The pages to include in file-lines.py are listed in the following Pull Request (
 
 Run in the root of your website to reactivate Ollama prior to syncing:
 
-	python projects/location/setup/ollama/sync.py "projects"
+	python projects/location/setup/customize/sync.py "projects"
 
 
 After completing code updates using the "projects" repo,
@@ -25,7 +25,7 @@ make a fork of this repo: [github.com/datascape/open-webui](https://github.com/d
 
 Pull your fork locally, then run:
 
-	python projects/location/setup/ollama/sync.py "open-webui"
+	python projects/location/setup/customize/sync.py "open-webui"
 
 
 ## Customize.py
