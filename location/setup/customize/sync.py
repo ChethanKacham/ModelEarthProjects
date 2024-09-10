@@ -58,7 +58,7 @@ def removing_ollama_lines(phrases):
                     updated_lines.append(line)
                 elif "}" in line and skip_block:
                     skip_block = False  # End of the env block, stop skipping
-                elif not skip_block:
+                if not skip_block and line not in updated_lines:
                     updated_lines.append(line)
 
             if filename == "chat.cy.ts":
