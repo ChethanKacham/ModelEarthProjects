@@ -1,7 +1,7 @@
 # Customize Open Web UI
 
 We're building add-ons for Teams and Locations.
-The following will remove our custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
+The following remove our custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
 
 These scripts are developed in [github.com/ModelEarth/projects](https://github.com/ModelEarth/projects) (which is a fork of open-webui)
 
@@ -17,8 +17,8 @@ Files and lines updated are in file-lines.py (which will also be used by customi
 
 Sync.py first checks if the file is either cypress.config.ts or chat.cy.ts and handle it accordingly. Otherwise, it will start uncommenting the Ollama lines.
 
-- The env block will be removed from cypress.config.ts.
-- For chat.cy.ts, the beforeEach block will be reverted to the previous version.
+- The env block is removed from cypress.config.ts.
+- For chat.cy.ts, the beforeEach block is reverted to the previous version.
 - The code handles duplicates.
 
 Run in the root of your website to reactivate Ollama prior to syncing:
