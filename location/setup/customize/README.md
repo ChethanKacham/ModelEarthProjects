@@ -3,17 +3,23 @@
 We're building add-ons for Teams and Locations.
 The following will remove our custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
 
-## Sync.py
+These scripts are developed in [github.com/ModelEarth/projects](https://github.com/ModelEarth/projects) (which is a fork of open-webui)
 
-Develop sync.py in [github.com/ModelEarth/projects](https://github.com/ModelEarth/projects) (which is a fork of open-webui)
+The files included in file-lines.py are listed in the following Pull Request (PR):
+[github.com/ModelEarth/projects/pull/7](https://github.com/ModelEarth/projects/pull/7)
+
+## Sync.py
 
 <!-- TO DO: Change title back to "Open WebUI" and remove inserted localsite.js -->
 
-TO DO: Remove comments we added to deactivate Ollama. 
+Removes comments we added to deactivate Ollama. 
 Files and lines updated are in file-lines.py (which will also be used by customize.py to add comments).
 
-The pages to include in file-lines.py are listed in the following Pull Request (PR):
-[github.com/ModelEarth/projects/pull/7](https://github.com/ModelEarth/projects/pull/7)
+Sync.py first checks if the file is either cypress.config.ts or chat.cy.ts and handle it accordingly. Otherwise, it will start uncommenting the Ollama lines.
+
+- The env block will be removed from cypress.config.ts.
+- For chat.cy.ts, the beforeEach block will be reverted to the previous version.
+- The code handles duplicates.
 
 Run in the root of your website to reactivate Ollama prior to syncing:
 
@@ -34,6 +40,13 @@ We comment out Ollama to reduce costs when deploying Docker to Google Cloud.
 
 Update the "customize.py" script to do the reverse of the "sync.py" script.
 
+- If the env block doesn't already exist in cypress.config.ts, it will be added. Otherwise, it will be skipped to avoid duplication.
+- Similarly, chat.cy.ts will have the beforeEach code that includes code for Ollama lines.
+
+Run to deactivate Ollama so you can use an external pipeline instead:
+
+	python projects/location/setup/customize/customize.py "open-webui"
+
 **TO DO in src/app.html**
 
 Change title="Open WebUI" to "Open WebUI ModelEarth"
@@ -41,4 +54,6 @@ Change title="Open WebUI" to "Open WebUI ModelEarth"
 Insert:
 
 	<script type="text/javascript" src="https://model.earth/localsite/js/localsite.js?showheader=true&showsearch=true"></script>
+
+
 
