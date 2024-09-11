@@ -2,11 +2,11 @@
 # Used by both customize.py and sync.py
 
 phrases = {
-    "cypress.config.ts": [
-        "env: {",
-        "    SKIP_OLLAMA_TESTS: 'false'",
-        "}"
-    ],
+    # "cypress.config.ts": [
+    #     "env: {",
+    #     "    SKIP_OLLAMA_TESTS: 'false'",
+    #     "}"
+    # ],
     "docker-compose.api.yaml": [
         'services:',
         '  ollama:',
@@ -56,7 +56,7 @@ phrases = {
     "cypress.config.ts" : [
         'env: {',
         "    SKIP_OLLAMA_TESTS: 'false'",
-        '}',
+        '},',
     ],
 
     "chat.cy.ts": [
