@@ -12,7 +12,7 @@ phrases = file_lines.phrases
 
 def removing_ollama_lines(phrases):
     pathToRoot = "../../../"
-    if len(sys.argv[1]) > 1:
+    if len(sys.argv) > 1:
         pathToRoot = sys.argv[1]
         if not pathToRoot.endswith('/'):
             pathToRoot += '/'
@@ -33,35 +33,25 @@ def removing_ollama_lines(phrases):
         updated_lines = []
         skip_block = False  # Used for cypress.config.ts processing
         revert_block = False  # Used for chat.cy.ts processing
+        env_block_processed = False  # New flag to track if we've processed the env block
 
         for line in lines:
             stripped_line = re.sub(r'^\s*#', '', line, 1).rstrip()  # Remove initial spaces and '#'
             print(f"LINE: {stripped_line}")
 
-            # Remove the initial hash tag if found in phrases
-            for phrase in phrase_list:
-                if stripped_line == phrase:
-                    print(f"Found: {phrase}")
-                    if re.match(r'^\s*#', line):  # If the line starts with a # or is preceded only by whitespace
-                        updated_lines.append(line.replace('#', '', 1))  # Remove the initial '#' and retain spaces
-                    else:
-                        updated_lines.append(line)
-                    break
-            else:
-                updated_lines.append(line)
-
             # Process specific files
             if filename == "cypress.config.ts":
-                # Handle block skipping logic for env block
-                if "env:" in line:
+                if "env:" in line and not env_block_processed:
                     skip_block = True
+                    env_block_processed = True
                     updated_lines.append(line)
                 elif "}" in line and skip_block:
-                    skip_block = False  # End of the env block, stop skipping
-                if not skip_block and line not in updated_lines:
+                    skip_block = False
+                    updated_lines.append(line)
+                elif not skip_block:
                     updated_lines.append(line)
 
-            if filename == "chat.cy.ts":
+            elif filename == "chat.cy.ts":
                 # Handle reverting beforeEach block in chat.cy.ts
                 if "beforeEach(function ()" in line:
                     revert_block = True
@@ -70,6 +60,18 @@ def removing_ollama_lines(phrases):
                     revert_block = False  # End of the beforeEach block
                     updated_lines.append(line)
                 elif not revert_block:
+                    updated_lines.append(line)
+            else:
+                # Remove the initial hash tag if found in phrases
+                for phrase in phrase_list:
+                    if stripped_line == phrase:
+                        print(f"Found: {phrase}")
+                        if re.match(r'^\s*#', line):
+                            updated_lines.append(line.replace('#', '', 1))
+                        else:
+                            updated_lines.append(line)
+                        break
+                else:
                     updated_lines.append(line)
 
         # Write the updated lines back to the file
