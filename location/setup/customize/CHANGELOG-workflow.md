@@ -41,5 +41,5 @@
 
 ### Added
 
-- Added `script/free-disk-space.sh` under `.github` folder
+- Added `.github/script/free-disk-space.sh`
 - Added `Free up Disk Space` workflow in `integratio-test.yml`.
