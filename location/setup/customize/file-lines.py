@@ -37,7 +37,7 @@ phrases = {
         "ollama: {}"
     ],
 
-    "intergration-test" : [
+    ".github/workflows/intergration-test.yml" : [
         '- name: Wait for Ollama to be up',
         'timeout-minutes: 5',
         'run: |',
@@ -53,7 +53,7 @@ phrases = {
 
     ],
 
-    "cypress.config.ts" : [
+    "cypress/e2e/chat.cy.ts" : [
         'env: {',
         "    SKIP_OLLAMA_TESTS: 'false'",
         '},',

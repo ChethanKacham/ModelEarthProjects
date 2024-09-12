@@ -33,6 +33,10 @@ Pull your fork locally, then run:
 
 	python projects/location/setup/customize/sync.py "open-webui"
 
+Click "commits ahead of"
+Click "Files changed"
+
+Also see CHANGELOG-workflow.md in the current folder.
 
 ## Customize.py
 
