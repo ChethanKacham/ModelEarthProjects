@@ -32,6 +32,9 @@ Check the lien list to confirm it's beed added:
     gcloud alpha resource-manager liens list
 
 
+<!-- Turn off with "Shut Down" under Settings
+https://console.cloud.google.com/iam-admin/settings?authuser=2&project=openfootprint
+-->
 
 ## Cost Comparison and Deployment Steps
 
