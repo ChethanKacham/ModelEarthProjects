@@ -28,11 +28,10 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Wednesday**
+**Friday and Sunday**
 
-Think about how you'd like to customize our new "[everybody's home page](../home)"  
+We're exploring [international trade flow data](/OpenFootprint/trade/) in Exiobase and working on our new "[everybody's home page](../home)"  
 [Explore Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) for displaying Colabs in web page dashboards using Plotly and Seaborn charts.  
-We still need to [turn on Google Cloud Lein](location/setup/google-cloud) to retain paused sites more than a month.
 
 **Current Priorities**
 
