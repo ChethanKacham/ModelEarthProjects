@@ -38,7 +38,7 @@ We're exploring [international trade flow data](/OpenFootprint/trade/) in Exioba
 - [Timelines using both javascript and python](/data-commons/docs/data/) - Google Data Commons
 - [Javascript updates for US EPA impact report samples](/useeio.js/footprint/)
 - [OpenWebUI Customize.py](location/setup/customize) - Reactivates Ollama for Sync
-- [Our little trade flow Sankey](/Openfootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+- [Our little trade flow Sankey](/OpenFootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
 

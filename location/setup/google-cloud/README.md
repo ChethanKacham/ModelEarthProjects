@@ -58,7 +58,9 @@ The open-webui, open-webui-pipeline and modelearth-open-webui images are already
 
 #### Reference Steps
 
-1. Open the **Repositories** page in the Google Cloud console.
+1. Open the **Repositories** page in the [Google Cloud console](https://console.cloud.google.com/welcome?project=openwebui-projects1&authuser=2).
+
+[Open the Repositoies page](https://console.cloud.google.com/artifacts) - You will enable "Artifact Registry API"
 2. Click Create Repository
 3. Specify `open-webui` as the repo name
 4. Choose **Docker** as the format and **Standard** as mode
