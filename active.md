@@ -28,10 +28,11 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Friday and Sunday**
+**Sunday**
 
+Our [BuildingTransparency product data pull](/OpenFootprint/products/) needs some loving attention.  
 We're exploring [international trade flow data](/OpenFootprint/trade/) in Exiobase and working on our new "[everybody's home page](../home)"  
-[Explore Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) for displaying Colabs in web page dashboards using Plotly and Seaborn charts.  
+[Explore Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) for displaying [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) in web page dashboards using Plotly and Seaborn charts.  
 
 **Current Priorities**
 
