@@ -5,7 +5,36 @@ We opted for Hosting with Pipeline Features (#2)
 
 You can turn off a project to save costs. Add a [lien to prevent deletion after 30 days](https://cloud.google.com/resource-manager/docs/project-liens#:~:text=To%20place%20a%20lien%20on,See%20more%20code%20actions.&text=Replace%20the%20following%3A,project%20the%20lien%20applies%20to.).
 
-This was our url prior to turning off. [test-me-open-webui...](https://test-me-open-webui-oqhgx572oq-uc.a.run.app/auth/)
+<!--
+This was our url prior to turning off.  It didn't work after turning back on.
+[test-me-open-webui...](https://test-me-open-webui-oqhgx572oq-uc.a.run.app/auth/)
+-->
+
+#### Turn on a lien so you can deactivate a project for more than a month
+
+You might need to fist created an API key for the above to work. (try skipping)
+https://console.cloud.google.com/apis/credentials?project=openwebui-projects1
+
+To turn on the lien, use the online Google cloud SDK shell to enable the cloud resource manage API access:
+
+    gcloud services enable cloudresourcemanager.googleapis.com
+
+Then create the lien with. Your role will need to have create lien permission.
+
+    gcloud alpha resource-manager liens create \
+      --project="openwebui-projects1" \
+      --restrictions="resourcemanager.projects.delete" \
+      --reason="On-Hold" \
+      --origin="my-lien"
+
+Check the lien list to confirm it's beed added:
+
+    gcloud alpha resource-manager liens list
+
+
+<!-- Turn off with "Shut Down" under Settings
+https://console.cloud.google.com/iam-admin/settings?authuser=2&project=openfootprint
+-->
 
 ## Cost Comparison and Deployment Steps
 
@@ -29,7 +58,9 @@ The open-webui, open-webui-pipeline and modelearth-open-webui images are already
 
 #### Reference Steps
 
-1. Open the **Repositories** page in the Google Cloud console.
+1. Open the **Repositories** page in the [Google Cloud console](https://console.cloud.google.com/welcome?project=openwebui-projects1&authuser=2).
+
+[Open the Repositoies page](https://console.cloud.google.com/artifacts) - You will enable "Artifact Registry API"
 2. Click Create Repository
 3. Specify `open-webui` as the repo name
 4. Choose **Docker** as the format and **Standard** as mode

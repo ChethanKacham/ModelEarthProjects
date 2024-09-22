@@ -28,17 +28,20 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Sunday**
+**Friday**
 
-[Let's explore Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) for displaying Colabs in web page dashboards using Plotly and Seaborn charts.  
-We'll also [turn on Google Cloud Lein](location/setup/google-cloud) to retain paused sites more than a month.
+[Exiobase International SQL](/OpenFootprint/trade/) - Colab and charts
+[Open Footprints](/food/) - [Product Impact API](/OpenFootprint/products/), Add javascript tp [Feed View](/feed/view/)  
+[OpenWebUI](/projects/location/setup/customize/) - Docker and location addons
+[Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
+[Everybody's Home Page](../home)
 
 **Current Priorities**
 
 - [Timelines using both javascript and python](/data-commons/docs/data/) - Google Data Commons
 - [Javascript updates for US EPA impact report samples](/useeio.js/footprint/)
 - [OpenWebUI Customize.py](location/setup/customize) - Reactivates Ollama for Sync
-- [Our little trade flow Sankey](/Openfootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+- [Our little trade flow Sankey](/OpenFootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
 **Gurus Needed**
 
