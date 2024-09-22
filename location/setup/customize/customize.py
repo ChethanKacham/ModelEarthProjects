@@ -61,6 +61,19 @@ def removing_ollama_lines(phrases):
                     in_beforeEach = False
                 elif not in_beforeEach:
                     updated_lines.append(line)
+
+            elif filename == "format-backend.yaml":
+                # Remove the '- *' line using phrases defined in file-lines.py
+                updated_lines = []
+                for line in lines:
+                    should_remove = False
+                    for phrase in phrase_list:
+                        if phrase in line:
+                            should_remove = True
+                            break
+                    if not should_remove:
+                        updated_lines.append(line)
+
             else:
                 # For other files, add hashtags to matching lines
                 for phrase in phrase_list:
@@ -69,6 +82,7 @@ def removing_ollama_lines(phrases):
                             line = f"# {line}"
                         break
                 updated_lines.append(line)
+            
 
         if filename == "cypress.config.ts" and env_block_exists:
             print("env block already exists in cypress.config.ts. Skipping addition.")

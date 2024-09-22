@@ -70,7 +70,10 @@ phrases = {
         '        // Visit the home page',
         "        cy.visit('/');",
         '    }',
-        '});'
+    ],
+
+    "format-backend.yaml": [
+        "- '*'"
     ]
 }
 
