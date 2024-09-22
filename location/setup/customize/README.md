@@ -1,7 +1,25 @@
+# External Ollama
+
+[OpenWebUI](https://github.com/open-webui/open-webui) uses Ollama to connect to 100's of LLMs. It's the leading open source alternative to OpenAI. And the LLMs include OpenAI models too.
+
+The python we created below adds/removes the Ollama install within OpenWebUI so we can use an external Ollama pipeline API to reduce hosting costs.
+
+We're using the Docker install with Google Cloud, but we could also host DigitalOcean and other Linux hosts.  
+
+One of our goals is to wrap our JQuery+React UX around the python OpenWebUI chatbot tools, while integrating Google Data Commons for real-world analytics data, timelines and team tools integrated with the Discord API.
+
+OpenWebUI is a potential starting point for any AI interface, but there's currently a steep learning curve until we complete our documentation for Docker with Google Cloud.
+
+https://github.com/open-webui/open-webui
+
+We're making Ollama more accessible by using external hosts.  Ollama uses pipelines to connect to other LLMs, but doesn't use a pipeline for Ollama itself - that's lame.
+
+The script below solves broadens the hosting options for OpenWebUI. With our modifications, the cost on Google Cloud will hopefully drop from $78/mo to less than $40/mo by connecting to Ollama as an external API pipeline.
+
+
 # Customize Open Web UI
 
-We're building add-ons for Teams and Locations.
-The following remove our custom changes so we can sync from [open-webui](https://github.com/open-webui/open-webui).
+The following reinstates Ollama so we can sync from [open-webui](https://github.com/open-webui/open-webui).
 
 These scripts are developed in [github.com/ModelEarth/projects](https://github.com/ModelEarth/projects) (which is a fork of open-webui)
 
