@@ -72,16 +72,20 @@
 									if (!response.ok) {
 										throw new Error('Not Found');
 									}
+									// These are the ones found
+									missingRepos.push(folder);
+									missingRepoCount[folder] = repoCount[folder];
 								} catch (error) {
 									missingRepos.push(folder);
 									missingRepoCount[folder] = repoCount[folder];
 								}
 							}
 						}
+						missingReposFound.style.display = 'block';
+						displayMissingRepos();
+						buildCloneCommands();
 						if (missingRepos.length > 0) {
-							missingReposFound.style.display = 'block';
-							displayMissingRepos();
-							buildCloneCommands();
+							
 						} else {
 							allReposPresent.style.display = 'block';
 						}
@@ -105,7 +109,7 @@
 					const buildCloneCommands = () => {
 						let githubCloneCmds = '';
 						for (let folder of missingRepos) {
-							githubCloneCmds += `git clone https://github.com/modelearth/${folder} ${folder} && `;
+							githubCloneCmds += `git clone https://github.com/modelearth/${folder} ${folder} &&\r`;
 						}
 						githubCloneCmds = githubCloneCmds.slice(0, -4); // Remove the trailing " &&"
 
@@ -131,13 +135,13 @@
 			<div id="activeDiv" class="mTable"></div>
 
 			<div id="missingReposFound" style="display: none">
-				<h2>Additional Repos</h2>
+				<h2>Repos Above</h2>
 				<div id="missingRepos"></div>
 				<textarea
 					id="cloneMissingRepos"
 					rows="4"
 					cols="50"
-					style="width: 100%; max-width: 550px"
+					style="width: 100%; max-width: 620px"
 				></textarea
 				><br />
 			</div>
