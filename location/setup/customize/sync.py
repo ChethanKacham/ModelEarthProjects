@@ -54,6 +54,22 @@ def adding_ollama_lines(phrases):
                         in_beforeEach = False
                 else:
                     updated_lines.append(line)
+
+            elif filename == "format-backend.yaml":
+                # Check if the '- *' line exists, if not, add it under the branches in both push and pull_request
+                found_wildcard = False
+                for line in lines:
+                    if "- '*'" in line:
+                        found_wildcard = True
+                        break
+                if not found_wildcard:
+                    # Locate the branches section under 'push' and 'pull_request'
+                    for i, line in enumerate(lines):
+                        if "branches:" in line and "push" in lines[i-1]:
+                            lines.insert(i+1, "      - '*'\n")
+
+                updated_lines = lines
+
             else:
                 # Process other files as before
                 for phrase in phrase_list:
