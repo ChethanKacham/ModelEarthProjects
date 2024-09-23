@@ -28,7 +28,10 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Friday**
+**Sunday**
+
+Retrieval Augmented Generation (RAG)
+Today's investigation: Can we build a RAG layer using a static Javascript page with [LangChain.js](https://v02.api.js.langchain.com/index.html), an API for a [supported LLM](https://v02.api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo (as an alternative to DataStax Astra DB)?
 
 [Exiobase International SQL](/OpenFootprint/trade/) - Colab and charts
 [Open Footprints](/food/) - [Product Impact API](/OpenFootprint/products/), Add javascript tp [Feed View](/feed/view/)  
