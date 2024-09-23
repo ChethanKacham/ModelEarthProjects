@@ -54,7 +54,7 @@ def adding_ollama_lines(phrases):
                 else:
                     updated_lines.append(line)
 
-            elif filename == "format-backend.yaml":
+            elif filename == ".github/workflows/format-backend.yaml":
                 # Check if the '- *' line exists, if not, add it under the branches in both push and pull_request
                 found_wildcard = False
                 for line in lines:

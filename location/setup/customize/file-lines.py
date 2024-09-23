@@ -72,8 +72,8 @@ phrases = {
         '    }',
     ],
 
-    "format-backend.yaml": [
-        "- '*'"
+    ".github/workflows/format-backend.yaml": [
+        "      - '*'"
     ]
 }
 
