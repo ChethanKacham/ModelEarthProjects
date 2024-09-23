@@ -30,7 +30,6 @@ def adding_ollama_lines(phrases):
 
         for line in lines:
             stripped_line = line.strip()
-
             if filename == "cypress.config.ts":
                 if "env: {" in line:
                     skip_env_block = True

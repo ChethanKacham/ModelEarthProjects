@@ -29,7 +29,6 @@ def removing_ollama_lines(phrases):
         env_block_added = False
         env_block_exists = False
         in_beforeEach = False
-
         if filename == "cypress.config.ts":
             # Check if env block already exists
             env_block_exists = any("env:" in line for line in lines)
