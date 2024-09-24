@@ -1,5 +1,7 @@
 Our meetups are [Wednesdays at 11 AM EDT](/io/coders/) and [Fridays at 6 PM EDT](/io/coders) and [Sundays at 11 PM EDT](/io/coders/).
 
+Wednesday at 4pm this week.
+
 ---
 
 <!--
@@ -31,7 +33,7 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 **Anvil with our CoLabs:**
 [Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
 
-**LangChain investigations:** Let's setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://v03.api.js.langchain.com), an API for a [supported LLM](https://v02.api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo (as an alternative to DataStax Astra DB)
+**LangChain investigations:** Let's setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://api.js.langchain.com), an API for a [supported LLM](https://api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo (as an alternative to DataStax Astra DB)
 
 ---
 
