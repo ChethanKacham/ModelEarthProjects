@@ -1,6 +1,6 @@
 Our meetups are [Wednesdays at 11 AM EDT](/io/coders/) and [Fridays at 6 PM EDT](/io/coders) and [Sundays at 11 PM EDT](/io/coders/).
 
-Wednesday at 4pm this week.
+Wednesday at 4pm EDT this week.
 
 ---
 
