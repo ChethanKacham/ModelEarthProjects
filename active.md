@@ -28,14 +28,16 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Sunday**
+**Anvil with our CoLabs:**
+[Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
 
-**Today's investigation:** Can we setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://v02.api.js.langchain.com/index.html), an API for a [supported LLM](https://v02.api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo (as an alternative to DataStax Astra DB)?
+**LangChain investigations:** Let's setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://v03.api.js.langchain.com), an API for a [supported LLM](https://v02.api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo (as an alternative to DataStax Astra DB)?
+
+---
 
 [Exiobase International SQL](/OpenFootprint/trade/) - Colab and charts
 [Open Footprints](/food/) - [Product Impact API](/OpenFootprint/products/), Add javascript tp [Feed View](/feed/view/)  
 [OpenWebUI](/projects/location/setup/customize/) - Docker and location addons
-[Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
 [Everybody's Home Page](../home)
 
 **Current Priorities**
