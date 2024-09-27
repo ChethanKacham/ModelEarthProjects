@@ -9,9 +9,13 @@ medium.com subscription needed
 	https://bhavikjikadara.medium.com/how-to-install-open-webui-without-docker-33eedbda9b96
 -->
 
-# Active Projects
+### Active Projects
 
-[Site Install](../localsite/start/steps/) - [Observable Data Commons](/data-commons/) - [Open WebUI](location/) - [Storyboard Generator](/data-pipeline/research) - [Moonshots](/community/projects/)
+[Install Website and Modules](../localsite/start/steps/) 
+
+<!--
+- [Observable Data Commons](/data-commons/) - [Open WebUI](location/) - [Storyboard Generator](/data-pipeline/research) - [Moonshots](/community/projects/)
+-->
 
 <!--
 **Timely Projects**
@@ -23,71 +27,114 @@ medium.com subscription needed
 	https://github.com/Dhravya/cloudflare-saas-stack
 
 
-Create a developer account in [Omdena.com](https://omdena.com) and help us create [team panels](/panels) using the [Discord API](https://discord.com/developers/docs/intro).
+Create a developer account in [Omdena.com](https://omdena.com) and help us create [team panels](/panels) using the 
 
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
+# Choose your own Adventure
+
+Select an area of interest and choose a TO DO to contribute to.
+
+## RealityStream ML
+
+[Run Models Colab](/RealityStream/)
+
+TO DO: Send URL has parameters to a CoLab using Anvil
+
 **Anvil with our CoLabs:**
 [Anvil Extras](https://anvil-extras.readthedocs.io/en/latest/guides/index.html) and [Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
 
-**LangChain investigations:** Let's setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://api.js.langchain.com), an API for a [supported LLM](https://api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo<!--DataStax Astra DB-->. 
+<!--
+- [StreamLit hosting within Open WebUI](https://github.com/streamlit/streamlit/issues/969)
+-->
 
----
+## Everybody's Home (RAGs from Repos)
 
-[Exiobase International SQL](/OpenFootprint/trade/) - Colab and charts
+Retrieval Augmented Generation (RAG) - [For Everybody's Home Page](../home) using [repo file API](../home/repo)
+
+**LangChain:** Setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://api.js.langchain.com), an API for a [supported LLM](https://api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo<!--DataStax Astra DB-->.  [And with LangChain removed](https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents)
+
+[AI Requests Visualization](/requests/) - for Storyboards, Meal Planning and Project Visualization - TO DO
+
+[Music for Data Science](https://github.com/DreamStudioCode/music)
+
+[Innovations in Water Purification](/evaporation-kits/innovations/) - Hyper Desalination - Content prep for RAG
+
+
+## International Trade Flow
+
+[International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Exiobase Colab and charts
+
+[Our little trade flow Sankey](/OpenFootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
+
+[Python to pull Harmonized Code (HS) lookups into Supabase](/OpenFootprint/harmonized-system/) - Chen and Wenjie
+
+[Sankey Industry eChart](/useeio.js/charts/echarts/sankey-nodeAlign-left.html) - eCharts uses a common echarts.min.js file which we'll load in [Feed Viewer](/feed/view)
+
+[Python - Finalize our All the Places data by State and Zip](/places)
+
+
+## US EPA State Impacts
+
+[Javascript updates for US EPA impact reports](/useeio.js/footprint/)  
+[React Team - Mosaic column checkboxes](/io/charts)  
+[React Team - Commodity Totals](/localsite/info/data/totals/) in [Jobs Reports](/localsite/info/#indicators=JOBS)
+
+
+## Open Footprints YAML Display
+
 [Open Footprints](/food/) - [Product Impact API](/OpenFootprint/products/), Add javascript tp [Feed View](/feed/view/)  
-[OpenWebUI](/projects/location/setup/customize/) - Docker and location addons
-[Everybody's Home Page](../home)
 
-**Current Priorities**
+[Food Nutrition Labels](/data-commons/docs/food) - Shali and Wenwei (Stella)
 
-- [Timelines using both javascript and python](/data-commons/docs/data/) - Google Data Commons
-- [Javascript updates for US EPA impact report samples](/useeio.js/footprint/)
-- [OpenWebUI Customize.py](location/setup/customize) - Reactivates Ollama for Sync
-- [Our little trade flow Sankey](/OpenFootprint/trade/) - [Big Sankey](https://sankey.theshiftproject.org/) - [Our Fork with python 3.10](https://github.com/ModelEarth/Mapping-global-ghg-emissions) and [bug resolved](https://github.com/baptiste-an/Mapping-global-ghg-emissions/issues/2)
 
-**Gurus Needed**
+## Google Data Commons Timelines
 
-- [Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)
-- [StreamLit hosting within Open WebUI](https://github.com/streamlit/streamlit/issues/969) - For URL parameters to drive our [RealityStream ML](/RealityStream/)
-- [Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/) - with our .csv timelines and DuckDB Parquet impact files
-- [Expand on our webhook with Discord API](/webhook) - Sends Word Doc from Google Form   
-- [Pull zip code Imputation ML](/machine-learning/) into our [RealityStream CoLab](/RealityStream)  
-- [Python for Exiobase trade impact data](https://pymrio.readthedocs.io/en/latest/intro.html)
-<!-- DemocracyLab Django Python integration -->
-<!-- [Earthscape NextJS in Open WebUI](/earthscape/app/) - React site hosted on our Google Cloud Python server-->
+[Javascript Timelines from Google Data Commons API](/data-commons/docs/data/)
+[Python pull from Google Data Commons API](/data-commons/docs/data/)
 
-**Feed Player React**
+<!--
+[Observable Framework Dashboard for UN Goals](https://observablehq.com/framework/) - with our .csv timelines and DuckDB Parquet impact files
+-->
+
+[DataGemma AI](https://ai.google.dev/gemma/docs/datagemma) - Ask: "List of DCID for water UN Goal timelines and Places"
+
+
+## OpenWebUI LLM Location Data
+
+[OpenWebUI](/projects/location/setup/customize/) - Reactivates Ollama for Sync, Docker and location addons
+
+[Open WebUI (Projects)](location/) with Python and [Retrieval Augmented Generation (RAG)](https://docs.openwebui.com/tutorial/rag/)
+for "context window" recency<!-- Next: Text to Action / Nividia Kuda is their advantage = code library that interacts with chip -->
+
+[Earthscape NextJS Chatbot UI](/earthscape/app/) - React, Supabase and [NextJS Hosting using GitHub Pages](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
+
+[Add localsite.js to OpenWebUI](/projects/location/) - Use our [Building Branches Locally](/projects/location/setup/) techniques within our [Datascape fork](https://github.com/datascape/open-webui/actions)
+
+
+
+## Team Tools with Discord and Odoo
+
+- [Discord API](https://discord.com/developers/docs/intro) - Team bios in our Feed Player
+- [Expand on our webhook with Discord API](/webhook) - Sends Word Doc from Google Form 
+- Odoo on Google Cloud
+
+
+## Feed Player React
 
 - [Feed Player](../feed/dist) - Video and Images from API feeds and Google Sheet lists
 - [NASA Feed Viewer](../feed/view/#feed=nasa) - JSON, YAML, CSS, RSS - [Address Lookup](/feed/view/#feed=311)
 - [Feed Player Visuals initially](/feed/dist/) - Restore display of BigBunny images and video, or show NASA images.
 
-**LLM Interfaces** - Where we'll be embedding data visualizations
-
-- [Open WebUI (Projects)](location/) with Python and [Retrieval Augmented Generation (RAG)](https://docs.openwebui.com/tutorial/rag/)
-for "context window" recency<!-- Next: Text to Action / Nividia Kuda is their advantage = code library that interacts with chip -->
-- [Earthscape for Chatbot UI](/earthscape/app/) - React, Supabase and [NextJS Hosting using GitHub Pages](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
-
-**Charts, SQL, Vite, Supabase, AI Chat**
-
-- [Javascript Timelines from Google Data Commons API](/data-commons/docs/data/)
-- [Python pull from Google Data Commons API](/data-commons/docs/data/)
-
-- [International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Sahil, Himanshu, Gary, Song
-- [Python to pull Harmonized Code (HS) lookups into Supabase](/OpenFootprint/harmonized-system/) - Chen and Wenjie
-- [Javascript for US State impacts](/useeio.js/footprint/)
+<!--
 - [Add Datawrapper.de](https://www.datawrapper.de/) using "link external dataset"
-- [Webhook to create Word Doc from Google Form](/webhook) - for [our New Member Signup](/community/members/) - Done
+
 - [Pull from Supabase (or backup file) into databricks SQL](https://chatgpt.com/share/d610d3e6-ce5f-4e7f-ba9e-4c74ec23abd4) - Apurva, Soham
 - [View DuckDB from Javascript](/OpenFootprint/prep/sql/duckdb/) - Kelly, Gary
-- [Food Nutrition Labels](/data-commons/docs/food) - Shali and Wenwei (Stella)
-- [AI Requests Visualization](/requests/) - for Storyboards, Meal Planning and Project Visualization - TO DO
-- [Music for Data Science Visualizations](https://github.com/DreamStudioCode/music) - Alex, Ivy
-- [Innovations in Water Purification](/evaporation-kits/innovations/) - Hyper Desalination - Soham - Content prep for RAG - TO DO
-- [Sankey Industry eChart](/useeio.js/charts/echarts/sankey-nodeAlign-left.html) - eCharts uses a common echarts.min.js file which we'll load in [Feed Viewer](/feed/view). -TO DO<!-- Chenbohan -->
-- [Python - Finalize our All the Places data by State and Zip](/places) - TO DO
+-->
+
+
 
 <!--
 - [Datausa.io](https://datausa.io) - Add API and embeddable visualizations to Feed Player
@@ -104,7 +151,7 @@ https://youtu.be/_AOA6M9Ta2I?si=Bh8SMhyD3GmuCLks&t=378
 CSV Files to use for Timelines, Observable, and AI Training at: [industries/naics/US/counties](https://github.com/ModelEarth/community-data/tree/master/industries/naics/US/counties)
 Pre-processed data for county industry levels, based on employment, establishments and payroll.-->
 
-**Machine Learning with Python and Google Data Commons**
+## ML with Python and Google Data Commons
 
 - [RealityStream](/RealityStream/) - Machine Learning Classification Models - Ivy, Kelvin and many more - TO DO
 - [Process Industry NAICS by Zip Code](/data-pipeline/industries/naics) - TO DO
@@ -150,8 +197,6 @@ Pre-processed data for county industry levels, based on employment, establishmen
 
 **React, Tabulator, Industry Timelines**
 
-- [React Team - Mosaic column checkboxes](/io/charts) - Pallavi
-- [React Team - Commodity Totals](/localsite/info/data/totals/) in [Jobs Reports](/localsite/info/#indicators=JOBS)
 - [Tabulator - Merge in industry year rows using Javascript (1-3)](/data-pipeline/timelines/tabulator/) - DONE<!--Rupesh, Vadlamudi-->
 - [Tabulator - Merge in titles using Javascript (4)](/data-pipeline/timelines/tabulator/) - DONE <!--Dinesh, Fanyi, Rupesh-->
 - [Steps for SQLite in Browser](/data-pipeline/timelines/sqlite/phiresky/) - [Example (Runs SQL)](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/)
