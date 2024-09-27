@@ -55,6 +55,8 @@ Retrieval Augmented Generation (RAG) - [For Everybody's Home Page](../home) usin
 
 **LangChain:** Setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://api.js.langchain.com), an API for a [supported LLM](https://api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo<!--DataStax Astra DB-->.  [And with LangChain removed](https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents)
 
+[Conversational RAG sample for 10 LLMs.](https://python.langchain.com/docs/tutorials/qa_chat_history/)
+
 [AI Requests Visualization](/requests/) - for Storyboards, Meal Planning and Project Visualization - TO DO
 
 [Music for Data Science](https://github.com/DreamStudioCode/music)
