@@ -32,15 +32,18 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
+**Retrieval-Interleaved Generation (RIG)**  
+Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma)
+
 # Choose your own Adventure
 
-Select an area of interest and choose a TO DO to contribute to.
+Select an area of interest and choose a TO DO to contribute.
 
 ## RealityStream ML
 
 [Run Models Colab](/RealityStream/)
 
-TO DO: Send URL has parameters to a CoLab using Anvil
+TO DO: Send URL has parameters to our [Run Models CoLab](/RealityStream) using Anvil
 
 **Anvil with our CoLabs:**
 [Anvil Extras](https://anvil-extras.readthedocs.io/en/latest/guides/index.html) and [Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
