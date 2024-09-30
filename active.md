@@ -129,9 +129,8 @@ for "context window" recency<!-- Next: Text to Action / Nividia Kuda is their ad
 
 ## Team Tools
 
-- [Building and documenting webhook](webhook) - Sends Word Doc - Arnab
-- [Discord API](https://discord.com/developers/docs/intro) - Team bios in our Feed Player
-- [Expand on our webhook with Discord API](/webhook) - Sends Word Doc from Google Form 
+- [Building and documenting webhook](webhook) - Sends Word Doc from Google Form  - Arnab
+- [Discord API](https://discord.com/developers/docs/intro) - Team bios in our Feed Player  
 - Odoo on Google Cloud for [Modules and Templates](https://www.odoo.com/documentation/master/developer/tutorials/website.html) and [Owl](https://www.cybrosys.com/blog/an-overview-of-the-owl-component-lifecycle) with the [Owl Github repo](https://github.com/odoo/owl)
 
 
