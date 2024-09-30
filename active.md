@@ -37,6 +37,9 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 
 Select an area of interest and choose a TO DO to contribute.
 
+
+
+
 ## RealityStream ML
 
 [Run Models Colab](/RealityStream/)
@@ -55,7 +58,7 @@ TO DO: Send URL has parameters to our [Run Models CoLab](/RealityStream) using A
 <!-- Retrieval Augmented Generation (RAG) -->
 
 **Retrieval-Interleaved Generation (RIG)**  
-Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma)
+Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma) - Zihan
 
 [For Everybody's Home Page](../home) using [repo file API](../home/repo)
 
@@ -71,6 +74,8 @@ Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datage
 
 
 ## International Trade Flow
+
+Contributors: Gary, Satya
 
 [International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Exiobase Colab and charts
 
@@ -122,11 +127,12 @@ for "context window" recency<!-- Next: Text to Action / Nividia Kuda is their ad
 
 
 
-## Team Tools with Discord and Odoo
+## Team Tools
 
+- [Building and documenting webhook](webhook) - Sends Word Doc - Arnab
 - [Discord API](https://discord.com/developers/docs/intro) - Team bios in our Feed Player
 - [Expand on our webhook with Discord API](/webhook) - Sends Word Doc from Google Form 
-- Odoo on Google Cloud
+- Odoo on Google Cloud for [Modules and Templates](https://www.odoo.com/documentation/master/developer/tutorials/website.html) and [Owl](https://www.cybrosys.com/blog/an-overview-of-the-owl-component-lifecycle) with the [Owl Github repo](https://github.com/odoo/owl)
 
 
 ## Feed Player React
