@@ -32,8 +32,6 @@ Create a developer account in [Omdena.com](https://omdena.com) and help us creat
 - [Document adding Flask as our optional python webroot](../localsite/start/steps/)
 -->
 
-**Retrieval-Interleaved Generation (RIG)**  
-Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma)
 
 # Choose your own Adventure
 
@@ -52,9 +50,14 @@ TO DO: Send URL has parameters to our [Run Models CoLab](/RealityStream) using A
 - [StreamLit hosting within Open WebUI](https://github.com/streamlit/streamlit/issues/969)
 -->
 
-## Everybody's Home (RAGs from Repos)
+## Everybody's Home (RIGs from Repos)
 
-Retrieval Augmented Generation (RAG) - [For Everybody's Home Page](../home) using [repo file API](../home/repo)
+<!-- Retrieval Augmented Generation (RAG) -->
+
+**Retrieval-Interleaved Generation (RIG)**  
+Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma)
+
+[For Everybody's Home Page](../home) using [repo file API](../home/repo)
 
 **LangChain:** Setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://api.js.langchain.com), an API for a [supported LLM](https://api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo<!--DataStax Astra DB-->.  [And with LangChain removed](https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents)
 

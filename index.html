@@ -14,11 +14,11 @@
 
 		<script
 			type="text/javascript"
-			src="https://model.earth/localsite/js/localsite.js?showheader=true"
+			src="/localsite/js/localsite.js?showheader=true"
 		></script>
 
 		<script>
-			loadMarkdown('active.md', 'activeDiv', '_parent');
+		loadMarkdown('active.md', 'activeDiv', '_parent',1, formatBuckets('activeDiv'));
 		</script>
 
 		<style>
@@ -29,6 +29,17 @@
 				/* Not sure why this became necessary */
 				margin-top: 0px;
 				margin-bottom: 2px;
+			}
+			.bucket {
+				background-color: #ccc;
+				border: 1px solid #000;
+			}
+			#activeDiv h2 {
+				background-color: #ddd;
+				padding-top: 6px !important;
+				padding-left: 15px;
+				color: #333;
+				line-heightX: 27px !important;
 			}
 		</style>
 
@@ -132,8 +143,9 @@
 
 	<body>
 		<div class="content contentpadding">
-			<div id="activeDiv" class="mTable"></div>
-
+			<div id="formatMe">
+				<div id="activeDiv" class="mTable"></div>
+			</div>
 			<div id="missingReposFound" style="display: none">
 				<h2>Repos Above</h2>
 				<div id="missingRepos"></div>
@@ -142,8 +154,7 @@
 					rows="4"
 					cols="50"
 					style="width: 100%; max-width: 620px"
-				></textarea
-				><br />
+				></textarea><br />
 			</div>
 
 			<div id="allReposPresent" style="display: none">
