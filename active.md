@@ -79,7 +79,7 @@ Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datage
 
 ## International Trade Flow
 
-Contributors: Gary, Satya
+Contributors: Gary, Satya, Himanshu, Sahil
 
 [International Trade Flow SQL Data Prep](/OpenFootprint/trade) - Exiobase Colab and charts
 
