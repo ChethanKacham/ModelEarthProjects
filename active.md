@@ -55,23 +55,22 @@ TO DO: Send URL has parameters to our [Run Models CoLab](/RealityStream) using A
 
 ## Everybody's Home (RIGs from Repos)
 
-<!-- Retrieval Augmented Generation (RAG) -->
-
-**Retrieval-Interleaved Generation (RIG)**  
-Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma) - Zihan
-
 [For Everybody's Home Page](../home) using [repo file API](../home/repo)
+
+**Retrieval Augmented Generation (RAG)**
+[Conversational RAG sample for 10 LLMs](https://python.langchain.com/docs/tutorials/qa_chat_history/)  
+[API Storage storage for LLMs](/localsite/tools/storage/api/)
+
 
 **LangChain:** Setup Retrieval Augmented Generation (RAG) using a static Javascript page with [LangChain.js](https://api.js.langchain.com), an API for a [supported LLM](https://api.js.langchain.com/interfaces/_langchain_openai.OpenAIClient.Beta.VectorStores.FileBatches.FileBatchCreateParams.StaticChunkingStrategyRequestParam.Static.html) like OpenAI, and data from a Google Sheet or Github Repo<!--DataStax Astra DB-->.  [And with LangChain removed](https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents)
 
-notebooklm.google/
+[Google Notebook LM](https://notebooklm.google)
 
-[Conversational RAG sample for 10 LLMs.](https://python.langchain.com/docs/tutorials/qa_chat_history/)  
-[API Storage storage for LLMs](/localsite/tools/storage/api/)
+[AI Requests Visualization](/requests/) - for Storyboards, Meal Planning and Project Visualization  
+[Music for Data Science](https://github.com/DreamStudioCode/music) - for [home/repo](/home/repo)
 
-[AI Requests Visualization](/requests/) - for Storyboards, Meal Planning and Project Visualization - TO DO
-
-[Music for Data Science](https://github.com/DreamStudioCode/music)
+**Retrieval-Interleaved Generation (RIG)**  
+Using [Google Data Commons DataGemma AI](https://ai.google.dev/gemma/docs/datagemma) - Zihan reported require paid storage or memory
 
 [Innovations in Water Purification](/evaporation-kits/innovations/) - Hyper Desalination - Content prep for RAG
 
