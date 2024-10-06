@@ -1,12 +1,18 @@
 # Install and Build
 
+
+
 ## Manual Install w/o Ollama locally
 
-For Linux/MacOS:
+**For Linux/MacOS**
 
     bash location/setup/script/conda-start.sh
 
-For Windows:
+Some machines may not have enough memory to run conda-start.sh script. Use a newer laptop with at least (16GB unified memory). 
+
+conda-start.sh references $HOME/bin/opt/anaconda3 for the conda profile. Your conda profile might be in /opt/anaconda3 (apple silicon). You can modify conda-start.sh to change the path.
+
+**For Windows**
 
 ```
 copy .env.example .env
