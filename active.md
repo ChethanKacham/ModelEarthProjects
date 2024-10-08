@@ -44,7 +44,7 @@ Select an area of interest and choose a TO DO to contribute.
 
 [Run Models Colab](/RealityStream/)
 
-TO DO: Send URL has parameters to our [Run Models CoLab](/RealityStream) using Anvil
+TO DO: Send URL hash # parameters to our [Run Models CoLab](/RealityStream) using Anvil
 
 **Anvil with our CoLabs:**
 [Anvil Extras](https://anvil-extras.readthedocs.io/en/latest/guides/index.html) and [Anvil](https://anvil.works/learn/tutorials/data-science#connecting-notebooks) and [AnvilScope CoLab](https://colab.research.google.com/drive/1rlOPfOxRnfm4pTGSn3gk_MvmVF65iidF?usp=sharing) using Plotly  
